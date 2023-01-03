@@ -18,10 +18,13 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
+  const [name, setName] = useState("Bahom");
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
+    setName("Bahom22");
   }, []);
+
 
   return (
     <div>

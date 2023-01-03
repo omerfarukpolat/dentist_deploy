@@ -1,3 +1,5 @@
+import {useState} from "react";
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -16,12 +18,12 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            BAHOM
-          </a>{' '}
+            <img src='img/dentics_logo_s_1.jpg'  alt={''}/>
+          </a>
         </div>
 
         <div
-          className='collapse navbar-collapse'
+          className='navbar-expand-sm navbar-collapse'
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
@@ -48,11 +50,6 @@ export const Navigation = (props) => {
             <li>
               <a href='#portfolio' className='page-scroll'>
                 Gallery
-              </a>
-            </li>
-            <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
               </a>
             </li>
             <li>
