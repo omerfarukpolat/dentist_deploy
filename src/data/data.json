@@ -131,29 +131,20 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/dentics_team_dr_2.jpg",
+      "name": "Dr.Fuat Kesim",
+      "description": "Dentics 1995 yılında bir grup idealist uzman diş hekimi tarafından Ankara Şili Meydanında kurulmuştur. Sadece uzman diş hekimlerinin hizmet verdiği poliklinik konseptinin Ankara'daki ilk uygulama yeridir."
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/dentics_team_dr_3.jpg",
+      "name": "Dr. Serpil Başoğlu",
+      "description": "Koruyucu Tedavi\" yi ön plana çekmeyi, diş ve dokularda oluşabilecek problemlere karşı önlemler almayı ve gereken tüm tedavileri çağdaş diş hekimliğinin gerektirdiği modern ekipmanlarla donatılmış, konusunda uzman hekimlerin hizmet verdiği \" Diş Sağlığı Merkezidir\"."
     }
+
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
+    "address": "Kavaklıdere,\nKavaklıdere Sok. No:3 D:3,\n06690 Çankaya/Ankara\n",
+    "phone": "0 312 468 7678",
     "email": "info@company.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
