@@ -5,7 +5,7 @@ export const About = (props) => {
         <div className="row">
           <div style={{marginBottom: 10}} className="col-xs-12 col-md-6">
             {" "}
-            <img src="img/aboutus.jpg" className="img-responsive" alt="" />{" "}
+            <img src="img/team/dentics-team.jpg" className="img-responsive" alt="" />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
@@ -22,15 +22,7 @@ export const About = (props) => {
                       : "loading"}
                   </ul>
                 </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
+                
               </div>
             </div>
           </div>
