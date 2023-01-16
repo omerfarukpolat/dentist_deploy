@@ -1,3 +1,5 @@
+import {Navigation} from "./navigation";
+
 export const Testimonials = (props) => {
   return (
     <div id='testimonials'>

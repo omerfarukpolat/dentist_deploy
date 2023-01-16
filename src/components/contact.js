@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
+import {Navigation} from "./navigation";
 
 const initialState = {
   name: '',

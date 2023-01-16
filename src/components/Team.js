@@ -1,3 +1,5 @@
+import {Navigation} from "./navigation";
+
 export const Team = (props) => {
   return (
     <div id='team' className='text-center'>

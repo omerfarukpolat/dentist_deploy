@@ -1,3 +1,5 @@
+import {Navigation} from "./navigation";
+
 export const About = (props) => {
   return (
     <div id="about">

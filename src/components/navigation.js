@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {Link} from "react-router-dom";
 
 export const Navigation = (props) => {
   return (
@@ -28,9 +28,10 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features' className='page-scroll'>
-                Features
-              </a>
+              <Link to="/team">Team</Link>
+            </li>
+            <li>
+              <Link to="/about">Biz Kimiz?</Link>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
