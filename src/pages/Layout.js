@@ -42,47 +42,19 @@ const Layout = () => {
             >
               <ul className='nav navbar-nav navbar-right'>
                 <li>
-                  <Link to="/team">Team</Link>
-                </li>
-                <li>
                   <Link to="/about">Biz Kimiz?</Link>
                 </li>
                 <li>
-                  <Link to="/about">Biz Kimiz?</Link>
+                  <Link to="/team">Ekibimiz</Link>
                 </li>
                 <li>
-                  <Link to="/about">Biz Kimiz?</Link>
+                  <Link to="/services">Tedaviler</Link>
                 </li>
                 <li>
-                  <Link to="/about">Biz Kimiz?</Link>
+                  <Link to="/portfolio">Gallery</Link>
                 </li>
                 <li>
-                  <Link to="/about">Biz Kimiz?</Link>
-                </li>
-                <li>
-                  <a href='#about' className='page-scroll'>
-                    Biz Kimiz?
-                  </a>
-                </li>
-                <li>
-                  <a href='#team' className='page-scroll'>
-                    Hekimlerimiz
-                  </a>
-                </li>
-                <li>
-                  <a href='#services' className='page-scroll'>
-                    Tedaviler
-                  </a>
-                </li>
-                <li>
-                  <a href='#portfolio' className='page-scroll'>
-                    Gallery
-                  </a>
-                </li>
-                <li>
-                  <a href='#contact' className='page-scroll'>
-                    İletişim
-                  </a>
+                  <Link to="/contact">İletişim</Link>
                 </li>
               </ul>
             </div>
