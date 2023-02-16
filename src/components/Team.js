@@ -1,4 +1,4 @@
-import {Navigation} from "./navigation";
+import {Link} from "react-router-dom";
 
 export const Team = (props) => {
   return (
@@ -14,16 +14,20 @@ export const Team = (props) => {
         <div id='row'>
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-md-3 col-sm-6 team'>
-                  <div className='thumbnail'>
-                    {' '}
-                    <img src={d.img} alt='...' className='team-img' />
-                    <div className='caption'>
-                      <h4>{d.name}</h4>
-                      <p>{d.description}</p>
-                    </div>
+                  <div key={`${d.name}-${i}`} className='col-md-3 col-sm-6 team'>
+                    <figure>
+                      <div className='thumbnail hover01 img-responsive'>
+                        {' '}
+                        <Link to="/doctors">
+                          <img src={d.img} alt='...'/>
+                        </Link>
+                        <div className='caption' style={{marginTop: 20}}>
+                        </div>
+                      </div>
+                    </figure>
+                    <h4>{d.name}</h4>
+                    <p>{d.description}</p>
                   </div>
-                </div>
               ))
             : 'loading'}
         </div>

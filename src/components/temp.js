@@ -5,7 +5,6 @@ export const Temp = (props) => {
       <div>
         <div id='temp' className={'intro'}>
           <div>
-            <Navigation/>
           </div>
           <p>WELCOME TO TEMP</p>
           <p>WELCOME TO TEMP</p>

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
 import {Navigation} from "./navigation";
+import {GoogleMap, useLoadScript, Marker} from "@react-google-maps/api";
 
 const initialState = {
   name: '',
@@ -8,6 +9,9 @@ const initialState = {
   message: '',
 }
 export const Contact = (props) => {
+  const {isLoaded } = useLoadScript({
+    googleMapsApiKey: "AIzaSyA1idgC32DjdE964FagB7Mc_wQe2pxN2r4"
+  });
   const [{ name, email, message }, setState] = useState(initialState)
 
   const handleChange = (e) => {
@@ -37,7 +41,7 @@ export const Contact = (props) => {
     <div>
       <div id='contact'>
         <div className='container'>
-          <div className='col-md-8'>
+          <div className='col-md-6'>
             <div className='row'>
               <div className='section-title'>
                 <h2>BİZE DANIŞABİLİRSİNİZ</h2>
@@ -96,7 +100,7 @@ export const Contact = (props) => {
               </form>
             </div>
           </div>
-          <div className='col-md-3 col-md-offset-1 contact-info'>
+          <div className='col-md-5 col-md-offset-1 contact-info'>
             <div className='contact-item'>
               <h3>İletişim</h3>
               <p>
@@ -105,6 +109,11 @@ export const Contact = (props) => {
                 </span>
                 {props.data ? props.data.address : 'loading'}
               </p>
+            </div>
+            <div>
+              {/*<GoogleMap mapContainerStyle={{width: "100%", height: "50%"}} zoom={15} center={{lat: 39.900690, lng: 32.858460}}>*/}
+              {/*  <Marker position={{lat: 39.900690, lng: 32.858460}} />*/}
+              {/*</GoogleMap>*/}
             </div>
             <div className='contact-item'>
               <p>
@@ -144,7 +153,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
+            &copy;
             <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire
             </a>

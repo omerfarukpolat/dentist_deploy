@@ -16,7 +16,9 @@ import {Testimonials} from "./components/testimonials";
 import {Contact} from "./components/contact";
 import {Navigation} from "./components/navigation";
 import AllPages from "./components/allpages";
-
+import {Temp} from "./components/temp";
+import "animate.css/animate.min.css";
+import {TeamDetails} from "./components/teamDetails";
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -30,6 +32,7 @@ const App = () => {
   }, []);
 
   return (
+      <div lang={"tr"}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout/>}>
@@ -41,9 +44,12 @@ const App = () => {
             <Route path="team" element={<Team data={landingPageData.Team}/>}/>
             <Route path="contact" element={<Contact data={landingPageData.Contact}/>}/>
             <Route path="features" element={<Features data={landingPageData.Features}/>}/>
+            <Route path="temp" element={<Temp/>}/>
+            <Route path="doctors" element={<TeamDetails data={landingPageData.Team}/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
+      </div>
 
   );
 };

@@ -10,7 +10,7 @@ import {Team} from "./Team";
 import {Contact} from "./contact";
 import JsonData from "../data/data.json";
 import "../App.css";
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 const AllPages = () => {
   const [landingPageData, setLandingPageData] = useState({});
 
@@ -21,11 +21,11 @@ const AllPages = () => {
   return (
       <div lang={"tr"}>
         <Header data={landingPageData.Header}/>
-        <Features data={landingPageData.Features}/>
         <About data={landingPageData.About}/>
-        <Services data={landingPageData.Services}/>
-        <Testimonials data={landingPageData.Testimonials}/>
         <Team data={landingPageData.Team}/>
+        <Services data={landingPageData.Services}/>
+        <Features data={landingPageData.Features}/>
+        <Testimonials data={landingPageData.Testimonials}/>
         <Contact data={landingPageData.Contact}/>
       </div>
   );
