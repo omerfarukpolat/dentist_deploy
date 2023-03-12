@@ -4,7 +4,7 @@
     "paragraph": "Size ve değer verdiklerinize hizmet vermek için kurulmuş geniş bir diş hekimi ailesiyiz... Uzman Diş Hekimi kadrosu, en gelişmiş teknik ekipman ve sizlerin huzuru için yaratılmış Dentics Aile Ağız ve Diş Sağlığı Merkezi...\n\n"
   },
   "About": {
-    "paragraph": "Dentics genel çizgilerinde ülkemizde \" Aile Diş Hekimliği \" kavramını benimsetmeyi;\n\"Koruyucu Tedavi\" yi ön plana çekmeyi, diş ve dokularda oluşabilecek problemlere karşı önlemler almayı ve gereken tüm tedavileri çağdaş diş hekimliğinin gerektirdiği modern ekipmanlarla donatılmış, konusunda uzman hekimlerin hizmet verdiği \" Diş Sağlığı Merkezidir\".",
+    "paragraph": "Dentics 1995 yılında bir grup idealist uzman (PhD dereceli) diş hekimi tarafından kurulmuş\nbir &quot;Ağız ve Diş Sağlığı Polikliniği&quot;dir. Farklı bilim dallarında uzmanlaşmış diş hekimlerinin\nkaliteli sağlık hizmeti verme ideali ile bir arada çalışması konseptinin Ankara&#39;daki ilk\nuygulama yeri Dentics&#39;tir. Yıllar içinde kuruluş amacımızı ve çalışma prensiplerimizi\ndeğiştirmeden, bu doğrultuda hizmet vermeye devam etmekteyiz.\n2023 yılı itibariyle on iki binden fazla kişi diş tedavileri için bizi tercih etmiştir. Bu çok değerli\nhastalarımız ağırlıklı olarak; birçok farklı ülkeden yabancı misyon görevlileri ve diplomatlar,\nbirleşmiş milletler çalışanları ve diplomatlar, Türkiye İş Bankası, Garanti BBVA ve Türkiye\nCumhuriyeti Merkez Bankası çalışanları ve emeklileri, TED Ankara Koleji mezunları ve\naileleri, Güvenevler ve Ayrancı&#39;da yaşayan çok sevgili komşularımızdır. Bu kadar çok farklı\nçevreden kişilerin güvenini kazanmış olmak, Dentics olarak en büyük başarımız ve gurur\nkaynağımızdır.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -146,16 +146,41 @@
   ],
   "Team": [
     {
-      "img": "img/team/dentics_team_dr_2.jpg",
-      "name": "Dr.Fuat Kesim",
-      "description": "Dentics 1995 yılında bir grup idealist uzman diş hekimi tarafından Ankara Şili Meydanında kurulmuştur. Sadece uzman diş hekimlerinin hizmet verdiği poliklinik konseptinin Ankara'daki ilk uygulama yeridir."
+      "img": "img/team/fuat_kesim.JPG",
+      "name": "Dr. Fuat Kesim",
+      "title": "Protez Uzmanı",
+      "description": "Ankara doğumlu Dr. Dt. Fuat Kesim, ilk, orta ve lise eğitimini TED Ankara Koleji&#39;nde\ntamamlamıştır. Hacettepe Üniversitesi Diş Hekimliği Fakültesi&#39;nden mezun olduktan sonra,\nAnkara Üniversitesi Protetik Diş Tedavisi Anabilim Dalı&#39;nda doktora eğitimine başlamıştır.\n&quot;Farklı porselen inley yapım tekniklerinin karşılaştırılması&quot; konulu tez çalışmasını\ntamamlayarak Bilim doktoru olmuştur (1996). Daha sonra Ankara Gülhane Askeri Tıp\nAkademisi Diş Hekimliği Bölümünde yedek subay uzman diş hekimi olarak hizmet ederek\nvatani görevini tamamlamıştır.\n1995 yılından itibaren Dentics Ağız ve Diş Sağlığı Polikliniği&#39;nde kurucu ortak ve protez\nuzmanı olarak çalışmaktadır.\nİngilizce ve Rusça bilmektedir.\nTürk Dişhekimleri Birliği, Ankara Dişhekimleri Odası üyesidir."
     },
     {
-      "img": "img/team/dentics_team_dr_3.jpg",
+      "img": "img/team/serpil_basoglu.JPG",
       "name": "Dr. Serpil Başoğlu",
-      "description": "Koruyucu Tedavi\" yi ön plana çekmeyi, diş ve dokularda oluşabilecek problemlere karşı önlemler almayı ve gereken tüm tedavileri çağdaş diş hekimliğinin gerektirdiği modern ekipmanlarla donatılmış, konusunda uzman hekimlerin hizmet verdiği \" Diş Sağlığı Merkezidir\"."
+      "title": "Periodontist (Diş ve Dişeti Hastalıkları)",
+      "description": "Ankara&#39;da doğan Dr. Dt. Serpil Başoğlu Ankara Halide Edip Lisesi&#39;nde öğrenimini\ntamamlamıştır. Ankara Üniversitesi Diş Hekimliği Fakültesi&#39;nden mezun olduktan sonra,\nHacettepe Üniversitesi Diş Hekimliği Fakültesi Periodontoloji Anabilim Dalı&#39;nda doktora\neğitimine başlamıştır. &quot;Periodontitisli hastalarda kanama indekslerinin histolojik ve klinik\nkarşılaştırılması ve dişeti iltihabı, cep derinliği ile olan ilişkilerinin incelenmesi&quot; isimli tez\nçalışması ile doktora eğitimini tamamlayarak, Bilim doktoru olmuştur.\n1999 yılından itibaren Dentics Ağız ve Diş Sağlığı Polikliniği&#39;nde dişeti hastalıkları uzmanı\n(Periodontist) olarak çalışmaya başlamıştır.\nTürk Periodontoloji Derneği, Türk Dişhekimleri Birliği ve Ankara Dişhekimleri Odası üyesidir."
+    },
+    {
+      "img": "img/team/ilke_doga_seker.JPG",
+      "name": "Dr. İlke Doğa Şeker",
+      "title": "Endodontist (Kanal Tedavisi)",
+      "description": "Ankara&#39;da doğan Dr. Dt. İlke Doğa Şeker, Ankara Özel Tevfik Fikret İlköğretim Okulu&#39;nda ve\nDr. Binnaz Ege - Dr. Rıdvan Ege Anadolu Lisesi&#39;nde öğrenimini tamamlamıştır. Hacettepe\nÜniversitesi Diş Hekimliği Fakültesi&#39;nden mezun olduktan sonra, Gazi Üniversitesi Diş\nHekimliği Fakültesi Endodonti Anabilim Dalı&#39;nda doktora eğitimine başlamıştır. Birçok kongre\nve seminere katılım sağlayan İlke Doğa Şeker, &quot;R-Limonene nanoemülsiyonların kanal içi\nuygulamalarının kök dentini üzerindeki antibakteriyel etkilerinin in vitro olarak\naraştırılması&quot; isimli tez çalışması ile 100/2000 YÖK Doktora Bursiyeri olarak doktora eğitimini\ntamamlayıp, Bilim doktoru olmuştur.\n2021 yılından itibaren Dentics Ağız ve Diş Sağlığı Polikliniği&#39;nde kanal tedavisi uzmanı\n(Endodontist) olarak çalışmaktadır.\nİngilizce ve Fransızca bilmektedir.\nTürk Endodonti Derneği, Türk Dişhekimleri Birliği ve Ankara Dişhekimleri Odası üyesidir."
+    },
+    {
+      "img": "img/team/gulseren_agca.JPG",
+      "name": "Gülseren Ağca",
+      "title": "Ağız ve Diş Sağlığı Teknikeri",
+      "description": "Ankara doğumludur. Ortaokul ve lise yıllarında Ankara Deneme Lisesi&#39;nde öğrenim\ngörmüştür.\n1997 yılında Dentics ailesine katılmıştır.\n2013 yılında Sağlık Bakanlığı tarafından verilen eğitimi tamamlayarak Ağız ve Diş Sağlığı\nTeknikeri unvanını kazanmıştır."
+    },
+    {
+      "img": "img/team/aysegul_akgul.JPG",
+      "name": "Ayşegül Akgül",
+      "title": "Diş hekimi yardımcısı",
+      "description": "Ankara doğumludur. Sincan İbn-i Sina Lisesi mezunudur.\n2015 yılında Dentics ailesine katılmıştır.\nDiş hekimi yardımcılığı görevini sürdürmektedir."
+    },
+    {
+      "img": "img/team/cemile_gulengoz_erdogan.JPG",
+      "name": "Cemile Gülengöz Erdoğan",
+      "title": "Resepsiyonist ve Hasta İlişkileri",
+      "description": "Resepsiyonist ve Hasta İlişkileri\nAnkara doğumludur. Sokullu Mehmet Paşa Lisesi mezunudur. Anadolu Üniversitesi Kamu\nYönetimi bölümünü bitirmiştir.\n2007 yılında Dentics ailesine katılmıştır.\nİngilizce bilmektedir."
     }
-
   ],
   "Contact": {
     "address": "Kavaklıdere,\nKavaklıdere Sok. No:3 D:3,\n06690 Çankaya/Ankara\n",

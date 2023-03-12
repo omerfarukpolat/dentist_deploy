@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/homepage.jpg) center center no-repeat;
+  background: url(../img/team/en_ustte_arkaplanda.JPG) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -458,6 +458,51 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+
+#teamDetail h2 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+#teamDetail h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #815712 0%, #230903 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 0;
+}
+
+#teamDetail .team-img {
+  height:600px;
+  position:relative;
+  overflow:hidden;
+  background-image: url("../img/team/IMG_3015.JPG");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+
+}
+
+#teamDetail .team-img:after {
+  content:'';
+  background:white;
+  position:absolute;
+  top: 50px;
+  left:0;
+  width:100%;
+  height:150px;
+  border-radius:0 0 50% 50%;
+}
+#teamDetail .team-img:after {
+  top:auto;
+  bottom:-10px;
+  border-radius:50% 50% 0 0 ;
+}
+
 
 figure {
   margin: 0;

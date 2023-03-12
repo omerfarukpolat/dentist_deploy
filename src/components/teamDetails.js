@@ -1,43 +1,101 @@
-import background from  './homepage.jpg';
+import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import tabela from "../img/logo.png";
+import team from "../img/team/en_ustte_arkaplanda.JPG";
+import { Contact } from "./contact";
+import { useEffect, useState } from "react";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import JsonData from "../data/data.json";
 export const TeamDetails = (props) => {
+  const location = useLocation();
+  const data = location.state;
+
+  const [landingPageData, setLandingPageData] = useState({});
+
+  useEffect(() => {
+    setLandingPageData(JsonData);
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-      <div id='team' className='text-center'>
-        <div className='container'>
-          <div style={{backgroundImage: background, height: '50%', justifyContent: 'center',
-               alignItems: 'center', display: 'flex',
-          }}>
-          <h2 >Dr. Fuat kesim</h2>
-          </div>
-          <div>
-          </div>
-          {/*<div className='col-md-8 col-md-offset-2 section-title'>*/}
-          {/*  <h2>Hekimlerimiz</h2>*/}
-          {/*  <p>*/}
-          {/*    Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed*/}
-          {/*    dapibus leonec.*/}
-          {/*  </p>*/}
-          {/*</div>*/}
-          {/*<div id='row'>*/}
-          {/*  {props.data*/}
-          {/*      ? props.data.map((d, i) => (*/}
-          {/*          <div key={`${d.name}-${i}`} className='col-md-3 col-sm-6 team'>*/}
-          {/*            <figure>*/}
-          {/*              <div className='thumbnail hover01 img-responsive'>*/}
-          {/*                {' '}*/}
-          {/*                <Link to="/doctors">*/}
-          {/*                  <img src={d.img} alt='...'/>*/}
-          {/*                </Link>*/}
-          {/*                <div className='caption' style={{marginTop: 20}}>*/}
-          {/*                </div>*/}
-          {/*              </div>*/}
-          {/*            </figure>*/}
-          {/*            <h4>{d.name}</h4>*/}
-          {/*            <p>{d.description}</p>*/}
-          {/*          </div>*/}
-          {/*      ))*/}
-          {/*      : 'loading'}*/}
-          {/*</div>*/}
-        </div>
+    <div id="teamDetail">
+      <div
+        className={"team-img"}
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column",
+        }}
+      >
+        <img
+          src={team}
+          style={{
+            width: "70%",
+            height: "100%",
+            opacity: 0.95,
+            boxShadow: "0 0 10px 0 rgba(0, 0, 0, 1)",
+          }}
+        />
       </div>
-  )
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          flexDirection: "row",
+          margin: 150,
+          marginTop: 0,
+        }}
+      >
+        <div
+          style={{
+            minWidth: "25vw",
+            maxWidth: "50vw",
+            height: "60vh",
+          }}
+        >
+          <div
+            style={{
+              borderWidth: 2,
+              borderRadius: 30,
+              borderColor:
+                "linear-gradient(to right, #815712 60%, #230903 100%)",
+              borderStyle: "solid",
+              width: "100%",
+              height: "100%",
+            }}
+          >
+            <img
+              src={data.image}
+              style={{
+                width: "100%",
+                height: "100%",
+                padding: 10,
+                borderRadius: 30,
+                boxShadow: "0 0 10px 0 rgba(0, 0, 0, 1)",
+              }}
+            />
+          </div>
+        </div>
+        <AnimationOnScroll
+          animateIn="animate__zoomIn"
+          delay={2}
+          duration={3}
+          animateOnce={true}
+        >
+          <div
+            style={{ marginLeft: "2vw", maxWidth: "40vw" }}
+            className={"about-text"}
+          >
+            <h2>{data.name}</h2>
+            <h1>{data.title}</h1>
+            <div style={{ height: "3vh" }}></div>
+            <p>{data.description}</p>
+          </div>
+        </AnimationOnScroll>
+      </div>
+      <Contact data={landingPageData.Contact} />
+    </div>
+  );
 };
