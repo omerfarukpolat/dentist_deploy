@@ -104,7 +104,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #815712 0%, #230903 100%);
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #815712 0%, #230903 100%) !important;
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -152,7 +152,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #815712 0%, #230903 100%);
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -167,7 +167,7 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #230903;
-  background-image: linear-gradient(to right, #815712 0%, #230903 100%);
+  background-image: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -209,7 +209,6 @@ a:focus,
   width: 100%;
   padding: 0;
   background: url(../img/team/en_ustte_arkaplanda.JPG) center center no-repeat;
-  background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -229,7 +228,7 @@ a:focus,
 }
 .intro h1 span {
   font-weight: 800;
-  color: #230903;
+  color: #DAB88B;
 }
 .intro p {
   color: #fff;
@@ -246,19 +245,25 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #FDF6EC;
 }
-#features i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  padding: 30px 0;
-  border-radius: 50%;
-  background: linear-gradient(to right, #815712 0%, #230903 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+
+#features .thumbnail {
+  background: transparent;
+  border: 2px;
+}
+#features .thumbnail .caption {
+  padding: 10px 0 0;
+  color: #888;
+}
+#features .responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 /* About Section */
 #about {
@@ -276,7 +281,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #815712 0%, #230903 100%);
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -307,10 +312,17 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+.about-background {
+  background-color: #FDF6EC;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #815712 0%, #230903 100%);
+  background: radial-gradient(circle at top left, #F3E9DD 0%, #DAB88B 60%);
   color: #fff;
 }
 #services .service-desc {
@@ -334,7 +346,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #815712 0%, #230903 100%);
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -370,8 +382,8 @@ header .intro-text {
   color: #fff;
   background: linear-gradient(
     to right,
-    #815712 0%,
-    #230903 100%
+    #F3E9DD 0%,
+    #DAB88B 30%
   );
   padding: 30% 0 0;
   height: 100%;
@@ -468,7 +480,7 @@ header .intro-text {
 #teamDetail h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #815712 0%, #230903 100%);
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -479,7 +491,8 @@ header .intro-text {
   height:600px;
   position:relative;
   overflow:hidden;
-  background-image: url("../img/team/IMG_3015.JPG");
+  background-image: url("../img/team/ekibimiz_biz_kimiz.JPG");
+  backdrop-filter: blur(20px);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -532,7 +545,7 @@ figure:hover+span {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #815712 0%, #230903 100%);
+  background: radial-gradient(circle at top left, #F3E9DD 0%, #DAB88B 30%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {

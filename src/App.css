@@ -51,3 +51,12 @@
   }
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(fonts/Montserrat-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'MontserratBold';
+  src: local('MontserratBold'), url(fonts/Montserrat-Bold.ttf) format('truetype');
+}
+

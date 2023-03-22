@@ -23,8 +23,8 @@ const AllPages = () => {
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
       <Team data={landingPageData.Team} />
-      <Services data={landingPageData.Services} />
       <Features data={landingPageData.Features} />
+      <Services data={landingPageData.Services} />
       <Testimonials data={landingPageData.Testimonials} />
       <Contact data={landingPageData.Contact} />
       <a

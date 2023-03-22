@@ -32,10 +32,11 @@ export const TeamDetails = (props) => {
         <img
           src={team}
           style={{
-            width: "70%",
+            width: "60%",
             height: "100%",
             opacity: 0.95,
             boxShadow: "0 0 10px 0 rgba(0, 0, 0, 1)",
+            background: "blur(20px)",
           }}
         />
       </div>
