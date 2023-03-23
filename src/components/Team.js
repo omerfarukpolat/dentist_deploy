@@ -1,15 +1,28 @@
 import { Link } from "react-router-dom";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export const Team = (props) => {
   return (
     <div id="team" className="text-center team-background">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Hekimlerimiz</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+          <AnimationOnScroll
+            animateIn="animate__slideInDown"
+            duration={2}
+            animateOnce={true}
+          >
+            <h2>Hekimlerimiz</h2>
+          </AnimationOnScroll>
+          <AnimationOnScroll
+            animateIn="animate__fadeInDown"
+            duration={2}
+            animateOnce={true}
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
+              dapibus leonec.
+            </p>
+          </AnimationOnScroll>
         </div>
         <div id="row">
           {props.data

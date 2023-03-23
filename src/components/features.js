@@ -11,6 +11,7 @@ import {
   Typography,
   Avatar,
   CardActionArea,
+  Divider,
 } from "@mui/material";
 import { red } from "@mui/material/colors";
 
@@ -57,12 +58,13 @@ export const Features = (props) => {
           <CardContent>
             <div
               style={{
-                opacity: 1,
-                width: "100%",
-                height: "100%",
+                display: "flex",
+                flexDirection: "column",
+                textAlign: "center",
+                marginTop: -20,
               }}
             >
-              <h4>{props.item.title}</h4>
+              <h4 style={{ fontSize: 30 }}>{props.item.title}</h4>
             </div>
           </CardContent>
         </Card>
@@ -75,7 +77,6 @@ export const Features = (props) => {
       style={{
         display: "flex",
         flexDirection: "row",
-        width: "100vw",
         height: "70vh",
         justifyContent: "center",
         alignItems: "center",
@@ -91,13 +92,23 @@ export const Features = (props) => {
         }}
       >
         <div style={{ marginRight: 100 }}>
-          <h1>Tedavilerimiz</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            consectetur, nisl nec ultricies lacinia, nisl nisl aliquet nisl, nec
-            tincidunt nisl nisl sit amet nisl. Sed consectetur, nisl nec
-            ultricies lacinia, nisl nisl aliquet nisl, nec tincidunt nisl nisl
-            sit amet nisl.
+          <div style={{ marginBottom: "4vh" }}>
+            <h1 style={{ color: "black" }}>Doğru Teşhis & Gerekli Tedavi</h1>
+            <Divider
+              sx={{
+                width: "19vw",
+                height: 1.5,
+                bgcolor: "grey.500",
+              }}
+            />
+          </div>
+          <p style={{ fontSize: 20 }}>
+            Dentics'e başvuran her hastamızı uzman kadromuz özenle muayene eder.
+            Hastamızın şikayetini dikkatle dinleriz. Ağız muayenesi ve
+            radyolojik tetkiklerin ışığında, var olan soruna doğru teşhisi
+            koymak başarılı tedavinin ilk şartıdır. Teşhis sonrası hastamızın
+            beklentileri de göz önünde bulundurularak, tüm uzman hekimlerimizin
+            ortak görüşü olan tedavi planını uygulamaktayız.
           </p>
         </div>
         <div style={{ width: "100vw" }}>

@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -11,9 +11,10 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "MontserratBold", sans-serif;
 }
 h2 {
+  font-family: "MontserratBold", sans-serif;
   text-transform: uppercase;
   margin: 0 0 20px;
   font-weight: 800;
@@ -21,24 +22,29 @@ h2 {
   color: #333;
 }
 h3 {
+  font-family: "MontserratBold", sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: #333;
 }
 h4 {
+  font-family: "MontserratBold", sans-serif;
   font-size: 18px;
   color: #333;
   font-weight: 600;
 }
 h5 {
+  font-family: "MontserratBold", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 20px;
 }
 p {
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
 p.intro {
+  font-family: "Montserrat", sans-serif;
   margin: 12px 0 0;
   line-height: 24px;
 }
@@ -140,6 +146,10 @@ hr {
 .navbar-default .navbar-toggle:hover > .icon-bar {
   background-color: #608dfd;
 }
+.title-with-divider {
+  margin-bottom: 40px;
+}
+
 .section-title {
   margin-bottom: 70px;
 }
@@ -150,6 +160,22 @@ hr {
   padding-bottom: 15px;
 }
 .section-title h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  margin-left: -30px;
+  left: 50%;
+}
+.section-title h1 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.section-title h1::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
@@ -254,6 +280,7 @@ header .intro-text {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #FDF6EC;
+    width: 100%;
 }
 
 #features .thumbnail {
@@ -698,6 +725,13 @@ label {
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
+}
+
+.team-background {
+    background: url("../img/triangle-mosaic.webp") repeat center center;
+    background-size: 150px 150px;
+    padding: 30px 0;
+
 }
 
 @media (max-width: 768px) {
