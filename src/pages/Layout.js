@@ -42,7 +42,7 @@ const Layout = () => {
 
             <Link to={"/"} className="navbar-brand page-scroll">
               <img
-                style={{ marginTop: -10, width: 150, height: 50 }}
+                style={{ marginTop: -20, width: "14vw", height: "7vh" }}
                 src="../img/logo3.png"
                 onClick={checkLocation}
                 alt={""}

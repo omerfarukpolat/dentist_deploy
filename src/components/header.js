@@ -1,7 +1,3 @@
-import { useContext } from "react";
-import { Context as PageContext } from "../context/PageContext";
-import { Navigation } from "./navigation";
-import { Link } from "react-router-dom";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export const Header = (props) => {

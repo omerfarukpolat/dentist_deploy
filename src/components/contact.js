@@ -82,6 +82,7 @@ export const Contact = (props) => {
                 </div>
                 <div className="form-group">
                   <textarea
+                    style={{ resize: "none" }}
                     name="message"
                     id="message"
                     className="form-control"
@@ -89,7 +90,7 @@ export const Contact = (props) => {
                     placeholder="Mesaj"
                     required
                     onChange={handleChange}
-                  ></textarea>
+                  />
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
@@ -109,17 +110,7 @@ export const Contact = (props) => {
                 {props.data ? props.data.address : "loading"}
               </p>
             </div>
-            <div>
-              {/*{isLoaded && (*/}
-              {/*  <GoogleMap*/}
-              {/*    mapContainerStyle={{ width: "100%", height: "50%" }}*/}
-              {/*    zoom={15}*/}
-              {/*    center={{ lat: 39.90069, lng: 32.85846 }}*/}
-              {/*  >*/}
-              {/*    <Marker position={{ lat: 39.90069, lng: 32.85846 }} />*/}
-              {/*  </GoogleMap>*/}
-              {/*)}*/}
-            </div>
+            <div></div>
             <div className="contact-item">
               <p>
                 <span>
@@ -129,29 +120,14 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
-          <div className="col-md-12">
-            <div className="row">
-              <div className="social">
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          {/*{isLoaded && (*/}
+          {/*  <GoogleMap*/}
+          {/*    mapContainerStyle={{ width: "100%", height: "50%" }}*/}
+          {/*    zoom={15}*/}
+          {/*    center={{ lat: 39.90069, lng: 32.85846 }}*/}
+          {/*  >*/}
+          {/*    <Marker position={{ lat: 39.90069, lng: 32.85846 }} />*/}
+          {/*  </GoogleMap>*/}
         </div>
       </div>
       <div id="footer">

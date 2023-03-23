@@ -18,7 +18,7 @@ export const TeamDetails = (props) => {
   }, []);
 
   return (
-    <div id="teamDetail">
+    <div id="teamDetail" className={"team-background"}>
       <div
         className={"team-img"}
         style={{
@@ -86,7 +86,7 @@ export const TeamDetails = (props) => {
           animateOnce={true}
         >
           <div
-            style={{ marginLeft: "2vw", maxWidth: "40vw" }}
+            style={{ marginLeft: "2vw", maxWidth: "40vw", color: "black" }}
             className={"about-text"}
           >
             <h2>{data.name}</h2>

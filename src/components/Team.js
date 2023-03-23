@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Team = (props) => {
   return (
-    <div id="team" className="text-center">
+    <div id="team" className="text-center team-background">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Hekimlerimiz</h2>

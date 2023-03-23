@@ -166,8 +166,10 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #230903;
+  background-color: #DAB88B;
   background-image: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
+  border-width: 1px;
+  border-color: #DAB88B;
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -175,7 +177,6 @@ hr {
   font-weight: 500;
   border-radius: 25px;
   transition: all 0.5s linear;
-  border: 0;
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -184,7 +185,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: transparent;
 }
 .btn:active,
 .btn.active {
@@ -208,7 +209,10 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/team/en_ustte_arkaplanda.JPG) center center no-repeat;
+  background-image: url(../img/team/ekibimiz_biz_kimiz.JPG);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: -300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -489,13 +493,14 @@ header .intro-text {
 
 #teamDetail .team-img {
   height:600px;
+  margin-top: -50px;
   position:relative;
   overflow:hidden;
-  background-image: url("../img/team/ekibimiz_biz_kimiz.JPG");
+  background-image: url("../img/team/blurry_background.png");
+  background-size: 950px;
   backdrop-filter: blur(20px);
-  background-size: 100% 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   opacity: 0.8;
 
 }
