@@ -51,12 +51,12 @@ export const TeamDetails = (props) => {
       >
         <div
           style={{
-            minWidth: "25vw",
-            maxWidth: "50vw",
+            width: "25vw",
             height: "60vh",
           }}
         >
           <div
+              className={"col-lg-12"}
             style={{
               borderWidth: 2,
               borderRadius: 30,
@@ -68,7 +68,7 @@ export const TeamDetails = (props) => {
             }}
           >
             <img
-              src={data.image}
+              src={data.image ? data.image: ""}
               style={{
                 width: "100%",
                 height: "100%",
