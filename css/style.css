@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -11,9 +11,10 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "MontserratBold", sans-serif;
 }
 h2 {
+  font-family: "MontserratBold", sans-serif;
   text-transform: uppercase;
   margin: 0 0 20px;
   font-weight: 800;
@@ -21,24 +22,29 @@ h2 {
   color: #333;
 }
 h3 {
+  font-family: "MontserratBold", sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: #333;
 }
 h4 {
+  font-family: "MontserratBold", sans-serif;
   font-size: 18px;
   color: #333;
   font-weight: 600;
 }
 h5 {
+  font-family: "MontserratBold", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 20px;
 }
 p {
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
 p.intro {
+  font-family: "Montserrat", sans-serif;
   margin: 12px 0 0;
   line-height: 24px;
 }
@@ -104,7 +110,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +131,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -140,6 +146,10 @@ hr {
 .navbar-default .navbar-toggle:hover > .icon-bar {
   background-color: #608dfd;
 }
+.title-with-divider {
+  margin-bottom: 40px;
+}
+
 .section-title {
   margin-bottom: 70px;
 }
@@ -152,7 +162,23 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  margin-left: -30px;
+  left: 50%;
+}
+.section-title h1 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.section-title h1::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -166,8 +192,10 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #DAB88B;
+  background-image: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
+  border-width: 1px;
+  border-color: #DAB88B;
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -175,7 +203,6 @@ hr {
   font-weight: 500;
   border-radius: 25px;
   transition: all 0.5s linear;
-  border: 0;
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -184,7 +211,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: transparent;
 }
 .btn:active,
 .btn.active {
@@ -204,17 +231,28 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
+.intro-sm {
+  width: 100%;
+  display: table;
+  background-image: url(../img/triangle-mosaic.webp);
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
 .intro {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/homepage.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  background-image: url(../img/team/ekibimiz_biz_kimiz.JPG);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position-y: -30vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
@@ -229,7 +267,7 @@ a:focus,
 }
 .intro h1 span {
   font-weight: 800;
-  color: #5ca9fb;
+  color: #DAB88B;
 }
 .intro p {
   color: #fff;
@@ -244,21 +282,33 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+header .intro-text-sm {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  text-align: center;
+}
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #FDF6EC;
+    width: 100%;
 }
-#features i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  padding: 30px 0;
-  border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+
+#features .thumbnail {
+  background: transparent;
+  border: 2px;
+}
+#features .thumbnail .caption {
+  padding: 10px 0 0;
+  color: #888;
+}
+#features .responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 /* About Section */
 #about {
@@ -276,7 +326,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -291,7 +341,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #230903;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -307,10 +357,17 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+.about-background {
+  background-color: #FDF6EC;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: radial-gradient(circle at top left, #F3E9DD 0%, #DAB88B 60%);
   color: #fff;
 }
 #services .service-desc {
@@ -334,7 +391,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -370,8 +427,8 @@ header .intro-text {
   color: #fff;
   background: linear-gradient(
     to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
+    #F3E9DD 0%,
+    #DAB88B 30%
   );
   padding: 30% 0 0;
   height: 100%;
@@ -452,15 +509,89 @@ header .intro-text {
 #team .thumbnail {
   background: transparent;
   border: 0;
+  border-radius: 10px !important;
 }
 #team .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
 }
+
+#teamDetail h2 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+#teamDetail h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #F3E9DD 0%, #DAB88B 30%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 0;
+}
+
+#teamDetail .team-img {
+  height:600px;
+  margin-top: -50px;
+  position:relative;
+  overflow:hidden;
+  background-image: url("../img/team/blurry_background.png");
+  background-size: 950px;
+  backdrop-filter: blur(20px);
+  background-position: center;
+  background-repeat: repeat;
+  opacity: 0.8;
+
+}
+
+#teamDetail .team-img:after {
+  content:'';
+  background:white;
+  position:absolute;
+  top: 50px;
+  left:0;
+  width:100%;
+  height:150px;
+  border-radius:0 0 50% 50%;
+}
+#teamDetail .team-img:after {
+  top:auto;
+  bottom:-10px;
+  border-radius:50% 50% 0 0 ;
+}
+
+
+figure {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+}
+figure:hover+span {
+  border-radius: 10px;
+  bottom: -36px;
+  opacity: 1;
+}
+/* Zoom In #1 */
+.hover01 img {
+  border-radius: 10px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .8s ease-in-out;
+  transition: .8s ease-in-out;
+}
+.hover01  img:hover {
+  border-radius: 10px;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: radial-gradient(circle at top left, #F3E9DD 0%, #DAB88B 30%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -599,7 +730,24 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-@media (max-width: 768px) {
+.mydropdown {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #555;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 2px;
+  border-radius: 0;
+  margin: 9px 20px 0;
+}
+
+.team-background {
+    background: url("../img/triangle-mosaic.webp") repeat center center;
+    background-size: 150px 150px;
+    padding: 30px 0;
+}
+
+@media (max-width: 844px) {
   #about img {
     margin: 50px 0;
   }
