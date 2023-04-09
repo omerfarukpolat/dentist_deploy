@@ -56,7 +56,7 @@ export const TeamDetails = (props) => {
       >
         <div
           style={{
-            width: "25vw"
+            width: "25vw",
             height: "60vh",
           }}
         >
