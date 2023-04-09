@@ -36,7 +36,7 @@ export const Services = (props) => {
                       }}
                     />
                     <div className="service-desc">
-                      <h3>{d.name}</h3>
+                      <h3 style={{ color: "black" }}>{d.name}</h3>
                     </div>
                   </div>
                 </div>

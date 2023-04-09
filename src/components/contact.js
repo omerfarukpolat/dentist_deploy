@@ -120,14 +120,15 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
-          {/*{isLoaded && (*/}
-          {/*  <GoogleMap*/}
-          {/*    mapContainerStyle={{ width: "100%", height: "50%" }}*/}
-          {/*    zoom={15}*/}
-          {/*    center={{ lat: 39.90069, lng: 32.85846 }}*/}
-          {/*  >*/}
-          {/*    <Marker position={{ lat: 39.90069, lng: 32.85846 }} />*/}
-          {/*  </GoogleMap>*/}
+          {isLoaded && (
+            <GoogleMap
+              mapContainerStyle={{ width: "100%", height: "50%" }}
+              zoom={15}
+              center={{ lat: 39.90069, lng: 32.85846 }}
+            >
+              <Marker position={{ lat: 39.90069, lng: 32.85846 }} />
+            </GoogleMap>
+          )}
         </div>
       </div>
       <div id="footer">

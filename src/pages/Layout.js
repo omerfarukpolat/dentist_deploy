@@ -1,17 +1,10 @@
 import { Outlet, Link } from "react-router-dom";
-import { Header } from "../components/header";
-import { Features } from "../components/features";
-import { About } from "../components/about";
-import { Services } from "../components/services";
-import { Gallery } from "../components/gallery";
-import { Testimonials } from "../components/testimonials";
-import { Team } from "../components/Team";
-import { Contact } from "../components/contact";
 import { useEffect, useState } from "react";
 import JsonData from "../data/data.json";
-import { Dropdown } from "react-bootstrap";
+import useWindowDimensions from "../hooks/useWindowDimensions";
 
 const Layout = () => {
+  const {width} = useWindowDimensions();
   const [landingPageData, setLandingPageData] = useState({});
 
   useEffect(() => {
@@ -24,7 +17,7 @@ const Layout = () => {
 
   return (
     <>
-      <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+      <nav id="menu" className="navbar navbar-default navbar-expand-sm navbar-fixed-top">
         <div className="container">
           <div className="navbar-header">
             <button
@@ -42,7 +35,7 @@ const Layout = () => {
 
             <Link to={"/"} className="navbar-brand page-scroll">
               <img
-                style={{ marginTop: -20, width: "14vw", height: "7vh" }}
+                style={{ marginTop: -20, width: width > 400 ? "14vw" : "55vw", height: "7vh" }}
                 src="../img/logo3.png"
                 onClick={checkLocation}
                 alt={""}
