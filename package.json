@@ -53,6 +53,7 @@
   },
   "devDependencies": {
     "@babel/helper-compilation-targets": "^7.20.7",
+    "gh-pages": "^5.0.0",
     "prettier": "^2.8.4",
     "react-router-dom": "^6.6.2"
   }
