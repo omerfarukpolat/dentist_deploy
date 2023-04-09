@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30d28255-0eca-44de-851d-5ea0b8cf7ced" name="Changes" comment="bugfix" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JbJW1nkWVrrYh4q3fxCHEvlnL7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\win10\WebstormProjects\React-Landing-Page-Template-master\public\img" />
+      <recent name="C:\Users\win10\WebstormProjects\React-Landing-Page-Template-master\src\img" />
+      <recent name="C:\Users\win10\WebstormProjects\React-Landing-Page-Template-master\public\img\team" />
+      <recent name="C:\Users\win10\WebstormProjects\React-Landing-Page-Template-master\src" />
+      <recent name="C:\Users\win10\WebstormProjects\React-Landing-Page-Template-master\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\win10\WebstormProjects\React-Landing-Page-Template-master\public\img\team" />
+      <recent name="C:\Users\win10\WebstormProjects\React-Landing-Page-Template-master\src\fonts" />
+      <recent name="C:\Users\win10\WebstormProjects\React-Landing-Page-Template-master\public\img" />
+      <recent name="C:\Users\win10\WebstormProjects\React-Landing-Page-Template-master\src\img" />
+      <recent name="C:\Users\win10\WebstormProjects\React-Landing-Page-Template-master\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30d28255-0eca-44de-851d-5ea0b8cf7ced" name="Changes" comment="" />
+      <created>1672340876850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672340876850</updated>
+      <workItem from="1672340878519" duration="999000" />
+      <workItem from="1672342459487" duration="534000" />
+      <workItem from="1672768944407" duration="9078000" />
+      <workItem from="1672779539454" duration="500000" />
+      <workItem from="1672860247137" duration="4686000" />
+      <workItem from="1672901070515" duration="319000" />
+      <workItem from="1673008491932" duration="15000" />
+      <workItem from="1673019249770" duration="1723000" />
+      <workItem from="1673102506440" duration="5721000" />
+      <workItem from="1673782159324" duration="2992000" />
+      <workItem from="1673788231350" duration="3972000" />
+      <workItem from="1673819783620" duration="651000" />
+      <workItem from="1673868543649" duration="3271000" />
+      <workItem from="1673894966265" duration="3278000" />
+      <workItem from="1674242501411" duration="3405000" />
+      <workItem from="1674676478543" duration="893000" />
+      <workItem from="1674757915709" duration="3575000" />
+      <workItem from="1674999296315" duration="74000" />
+      <workItem from="1674999431529" duration="2455000" />
+      <workItem from="1675601805667" duration="9372000" />
+      <workItem from="1676574462409" duration="163000" />
+      <workItem from="1678126737502" duration="1711000" />
+      <workItem from="1678466305712" duration="336000" />
+      <workItem from="1678527316416" duration="773000" />
+      <workItem from="1678531903426" duration="3204000" />
+      <workItem from="1678535283007" duration="1680000" />
+      <workItem from="1678629455658" duration="10117000" />
+      <workItem from="1679251695884" duration="1758000" />
+      <workItem from="1679341336916" duration="196000" />
+      <workItem from="1679344545647" duration="197000" />
+      <workItem from="1679344840745" duration="1480000" />
+      <workItem from="1679418195844" duration="14128000" />
+      <workItem from="1679505815985" duration="9768000" />
+      <workItem from="1679553080230" duration="4401000" />
+      <workItem from="1679559028539" duration="124000" />
+      <workItem from="1679572822222" duration="718000" />
+      <workItem from="1679581317086" duration="1036000" />
+      <workItem from="1679602974336" duration="1367000" />
+      <workItem from="1679857667429" duration="765000" />
+      <workItem from="1679858699599" duration="3357000" />
+      <workItem from="1679862549024" duration="1160000" />
+      <workItem from="1681042986835" duration="1606000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1672342799610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672342799610</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1672342886821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672342886821</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second commit">
+      <created>1672776410975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672776410975</updated>
+    </task>
+    <task id="LOCAL-00004" summary="logo saved as png">
+      <created>1672776832487</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672776832487</updated>
+    </task>
+    <task id="LOCAL-00005" summary="logo saved as png">
+      <created>1672776847772</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672776847772</updated>
+    </task>
+    <task id="LOCAL-00006" summary="react routes is added">
+      <created>1673871347373</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673871347373</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hotfix">
+      <created>1673872139064</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673872139064</updated>
+    </task>
+    <task id="LOCAL-00008" summary="google map is added, navigation is stabilized">
+      <created>1676574530034</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676574530034</updated>
+    </task>
+    <task id="LOCAL-00009" summary="team details screen is added">
+      <created>1678649533916</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678649533916</updated>
+    </task>
+    <task id="LOCAL-00010" summary="icons are added, color palette is changed">
+      <created>1679514761672</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679514761672</updated>
+    </task>
+    <task id="LOCAL-00011" summary="unecessary images are deleted">
+      <created>1679553127516</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679553127516</updated>
+    </task>
+    <task id="LOCAL-00012" summary="unecessary images are deleted">
+      <created>1679556917949</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679556917949</updated>
+    </task>
+    <task id="LOCAL-00013" summary="responsive design">
+      <created>1681043080729</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681043080729</updated>
+    </task>
+    <task id="LOCAL-00014" summary="bugfix">
+      <created>1681043279260</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681043279260</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="logo saved as png" />
+    <MESSAGE value="react routes is added" />
+    <MESSAGE value="hotfix" />
+    <MESSAGE value="google map is added, navigation is stabilized" />
+    <MESSAGE value="team details screen is added" />
+    <MESSAGE value="icons are added, color palette is changed" />
+    <MESSAGE value="unecessary images are deleted" />
+    <MESSAGE value="responsive design" />
+    <MESSAGE value="bugfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugfix" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
