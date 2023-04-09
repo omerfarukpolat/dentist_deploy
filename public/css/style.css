@@ -231,19 +231,28 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
+.intro-sm {
+  width: 100%;
+  display: table;
+  background-image: url(../img/triangle-mosaic.webp);
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
 .intro {
   display: table;
   width: 100%;
   padding: 0;
   background-image: url(../img/team/ekibimiz_biz_kimiz.JPG);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
-  background-position-y: -300px;
+  background-position-y: -30vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
@@ -271,6 +280,11 @@ a:focus,
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
+  text-align: center;
+}
+header .intro-text-sm {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
   text-align: center;
 }
 /* Features Section */
@@ -731,42 +745,10 @@ label {
     background: url("../img/triangle-mosaic.webp") repeat center center;
     background-size: 150px 150px;
     padding: 30px 0;
-
 }
 
-@media (max-width: 768px) {
+@media (max-width: 844px) {
   #about img {
     margin: 50px 0;
-  }
-  .navbar-brand {
-    float: left;
-    margin-right: 5px;
-    margin-left: -15px;
-  }
-  .navbar-nav {
-    float: left;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .navbar-nav > li {
-    float: left;
-  }
-  .navbar-nav > li > a {
-    border-radius: 0;
-  }
-  .navbar-nav.pull-right {
-    float: right;
-    width: auto;
-  }
-  .navbar-toggle {
-    position: relative;
-    top: auto;
-    left: auto;
-    display: none;
-  }
-  .nav-collapse.collapse {
-    display: block !important;
-    height: auto !important;
-    overflow: visible !important;
   }
 }

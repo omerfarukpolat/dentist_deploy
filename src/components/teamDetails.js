@@ -1,14 +1,15 @@
-import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import tabela from "../img/logo.png";
 import team from "../img/team/en_ustte_arkaplanda.JPG";
 import { Contact } from "./contact";
 import { useEffect, useState } from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import JsonData from "../data/data.json";
+import useWindowDimensions from "../hooks/useWindowDimensions";
 export const TeamDetails = (props) => {
+  const { height, width } = useWindowDimensions();
   const location = useLocation();
   const data = location.state;
+
 
   const [landingPageData, setLandingPageData] = useState({});
 
@@ -18,28 +19,32 @@ export const TeamDetails = (props) => {
   }, []);
 
   return (
-    <div id="teamDetail" className={"team-background"}>
-      <div
-        className={"team-img"}
-        style={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "column",
-        }}
-      >
-        <img
-          src={team}
-          style={{
-            width: "60%",
-            height: "100%",
-            opacity: 0.95,
-            boxShadow: "0 0 10px 0 rgba(0, 0, 0, 1)",
-            background: "blur(20px)",
-          }}
-        />
-      </div>
+    <div id="teamDetail" className={"team-background col-sm-12 col-lg-12"}>
+      {
+        width > 500 && (
+            <div
+                className={"team-img"}
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  flexDirection: "column",
+                }}
+            >
+              <img
+                  src={team}
+                  style={{
+                    width: "60%",
+                    height: "100%",
+                    opacity: 0.95,
+                    boxShadow: "0 0 10px 0 rgba(0, 0, 0, 1)",
+                    background: "blur(20px)",
+                  }}
+              />
+            </div>)
+      }
+
       <div
         style={{
           display: "flex",
@@ -68,7 +73,7 @@ export const TeamDetails = (props) => {
             }}
           >
             <img
-              src={data.image}
+              src={data.image ? data.image : ''}
               style={{
                 width: "100%",
                 height: "100%",
