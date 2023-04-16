@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/dentist/static/css/main.6065511e.css",
+    "main.js": "/dentist/static/js/main.a937ead7.js",
+    "static/media/en_ustte_arkaplanda.JPG": "/dentist/static/media/en_ustte_arkaplanda.199d3a29dbb9140c08b0.JPG",
+    "static/media/Montserrat-Bold.ttf": "/dentist/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Regular.ttf": "/dentist/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/periodonti.jpg": "/dentist/static/media/periodonti.ce8ac76871352bdd9ac8.jpg",
+    "static/media/root-canal-img.jpg": "/dentist/static/media/root-canal-img.c049f6b53a70a68a781b.jpg",
+    "static/media/prosthodontics.jpg": "/dentist/static/media/prosthodontics.5b2d0d07749b490b3c4f.jpg",
+    "index.html": "/dentist/index.html",
+    "main.6065511e.css.map": "/dentist/static/css/main.6065511e.css.map",
+    "main.a937ead7.js.map": "/dentist/static/js/main.a937ead7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6065511e.css",
+    "static/js/main.a937ead7.js"
+  ]
+}
