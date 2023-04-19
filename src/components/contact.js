@@ -135,9 +135,7 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy;
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
+            {new Date().getFullYear()} {props.data ? props.data.name : "loading"}
           </p>
         </div>
       </div>

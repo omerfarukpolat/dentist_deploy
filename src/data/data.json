@@ -127,56 +127,6 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/fuat_kesim.JPG",
-      "name": "Dr. Fuat Kesim",
-      "title": "Protez Uzmanı",
-      "description": "Ankara doğumlu Dr. Dt. Fuat Kesim, ilk, orta ve lise eğitimini TED Ankara Koleji'nde tamamlamıştır. Hacettepe Üniversitesi Diş Hekimliği Fakültesi'nden mezun olduktan sonra, Ankara Üniversitesi Protetik Diş Tedavisi Anabilim Dalı'nda doktora eğitimine başlamıştır. &quot;Farklı porselen inley yapım tekniklerinin karşılaştırılması&quot; konulu tez çalışmasını tamamlayarak Bilim doktoru olmuştur (1996). Daha sonra Ankara Gülhane Askeri Tıp Akademisi Diş Hekimliği Bölümünde yedek subay uzman diş hekimi olarak hizmet ederek vatani görevini tamamlamıştır. 1995 yılından itibaren Dentics Ağız ve Diş Sağlığı Polikliniği'nde kurucu ortak ve protez uzmanı olarak çalışmaktadır. İngilizce ve Rusça bilmektedir. Türk Dişhekimleri Birliği, Ankara Dişhekimleri Odası üyesidir."
-    },
-    {
-      "img": "img/team/serpil_basoglu.JPG",
-      "name": "Dr. Serpil Başoğlu",
-      "title": "Periodontist (Diş ve Dişeti Hastalıkları)",
-      "description": "Ankara'da doğan Dr. Dt. Serpil Başoğlu Ankara Halide Edip Lisesi'nde öğrenimini tamamlamıştır. Ankara Üniversitesi Diş Hekimliği Fakültesi'nden mezun olduktan sonra, Hacettepe Üniversitesi Diş Hekimliği Fakültesi Periodontoloji Anabilim Dalı'nda doktora eğitimine başlamıştır. &quot;Periodontitisli hastalarda kanama indekslerinin histolojik ve klinik karşılaştırılması ve dişeti iltihabı, cep derinliği ile olan ilişkilerinin incelenmesi&quot; isimli tez çalışması ile doktora eğitimini tamamlayarak, Bilim doktoru olmuştur. 1999 yılından itibaren Dentics Ağız ve Diş Sağlığı Polikliniği'nde dişeti hastalıkları uzmanı (Periodontist) olarak çalışmaya başlamıştır. Türk Periodontoloji Derneği, Türk Dişhekimleri Birliği ve Ankara Dişhekimleri Odası üyesidir."
-    },
-    {
-      "img": "img/team/ilke_doga_seker.JPG",
-      "name": "Dr. İlke Doğa Şeker",
-      "title": "Endodontist (Kanal Tedavisi)",
-      "description": "Ankara'da doğan Dr. Dt. İlke Doğa Şeker, Ankara Özel Tevfik Fikret İlköğretim Okulu'nda ve Dr. Binnaz Ege - Dr. Rıdvan Ege Anadolu Lisesi'nde öğrenimini tamamlamıştır. Hacettepe Üniversitesi Diş Hekimliği Fakültesi'nden mezun olduktan sonra, Gazi Üniversitesi Diş Hekimliği Fakültesi Endodonti Anabilim Dalı'nda doktora eğitimine başlamıştır. Birçok kongre ve seminere katılım sağlayan İlke Doğa Şeker, &quot;R-Limonene nanoemülsiyonların kanal içi uygulamalarının kök dentini üzerindeki antibakteriyel etkilerinin in vitro olarak araştırılması&quot; isimli tez çalışması ile 100/2000 YÖK Doktora Bursiyeri olarak doktora eğitimini tamamlayıp, Bilim doktoru olmuştur. 2021 yılından itibaren Dentics Ağız ve Diş Sağlığı Polikliniği'nde kanal tedavisi uzmanı (Endodontist) olarak çalışmaktadır. İngilizce ve Fransızca bilmektedir. Türk Endodonti Derneği, Türk Dişhekimleri Birliği ve Ankara Dişhekimleri Odası üyesidir."
-    },
-    {
       "img": "img/team/gulseren_agca.JPG",
       "name": "Gülseren Ağca",
       "title": "Ağız ve Diş Sağlığı Teknikeri",
@@ -193,6 +143,26 @@
       "name": "Cemile Gülengöz Erdoğan",
       "title": "Resepsiyonist ve Hasta İlişkileri",
       "description": "Resepsiyonist ve Hasta İlişkileri Ankara doğumludur. Sokullu Mehmet Paşa Lisesi mezunudur. Anadolu Üniversitesi Kamu Yönetimi bölümünü bitirmiştir. 2007 yılında Dentics ailesine katılmıştır. İngilizce bilmektedir."
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/fuat_kesim.JPG",
+      "name": "Dr. Dt. Fuat Kesim",
+      "title": "Protez Uzmanı",
+      "description": "Ankara doğumlu Dr. Dt. Fuat Kesim, ilk, orta ve lise eğitimini TED Ankara Koleji'nde tamamlamıştır. Hacettepe Üniversitesi Diş Hekimliği Fakültesi'nden mezun olduktan sonra, Ankara Üniversitesi Protetik Diş Tedavisi Anabilim Dalı'nda doktora eğitimine başlamıştır. \"Farklı porselen inley yapım tekniklerinin karşılaştırılması\" konulu tez çalışmasını tamamlayarak Bilim doktoru olmuştur (1996). Daha sonra Ankara Gülhane Askeri Tıp Akademisi Diş Hekimliği Bölümünde yedek subay uzman diş hekimi olarak hizmet ederek vatani görevini tamamlamıştır. 1995 yılından itibaren Dentics Ağız ve Diş Sağlığı Polikliniği'nde kurucu ortak ve protez uzmanı olarak çalışmaktadır. İngilizce ve Rusça bilmektedir. Türk Dişhekimleri Birliği, Ankara Dişhekimleri Odası üyesidir."
+    },
+    {
+      "img": "img/team/serpil_basoglu.JPG",
+      "name": "Dr. Dt. Serpil Başoğlu",
+      "title": "Periodontist (Diş ve Dişeti Hastalıkları)",
+      "description": "Ankara'da doğan Dr. Dt. Serpil Başoğlu Ankara Halide Edip Lisesi'nde öğrenimini tamamlamıştır. Ankara Üniversitesi Diş Hekimliği Fakültesi'nden mezun olduktan sonra, Hacettepe Üniversitesi Diş Hekimliği Fakültesi Periodontoloji Anabilim Dalı'nda doktora eğitimine başlamıştır. \"Periodontitisli hastalarda kanama indekslerinin histolojik ve klinik karşılaştırılması ve dişeti iltihabı, cep derinliği ile olan ilişkilerinin incelenmesi\" isimli tez çalışması ile doktora eğitimini tamamlayarak, Bilim doktoru olmuştur. 1999 yılından itibaren Dentics Ağız ve Diş Sağlığı Polikliniği'nde dişeti hastalıkları uzmanı (Periodontist) olarak çalışmaya başlamıştır. Türk Periodontoloji Derneği, Türk Dişhekimleri Birliği ve Ankara Dişhekimleri Odası üyesidir."
+    },
+    {
+      "img": "img/team/ilke_doga_seker.JPG",
+      "name": "Dr. Dt. İlke Doğa (Aymergen) Şeker",
+      "title": "Endodontist (Kanal Tedavisi)",
+      "description": "Ankara'da doğan Dr. Dt. İlke Doğa Şeker, Ankara Özel Tevfik Fikret İlköğretim Okulu'nda ve Dr. Binnaz Ege - Dr. Rıdvan Ege Anadolu Lisesi'nde öğrenimini tamamlamıştır. Hacettepe Üniversitesi Diş Hekimliği Fakültesi'nden mezun olduktan sonra, Gazi Üniversitesi Diş Hekimliği Fakültesi Endodonti Anabilim Dalı'nda doktora eğitimine başlamıştır. Birçok kongre ve seminere katılım sağlayan İlke Doğa Şeker, \"R-Limonene nanoemülsiyonların kanal içi uygulamalarının kök dentini üzerindeki antibakteriyel etkilerinin in vitro olarak araştırılması\" isimli tez çalışması ile 100/2000 YÖK Doktora Bursiyeri olarak doktora eğitimini tamamlayıp, Bilim doktoru olmuştur. 2021 yılından itibaren Dentics Ağız ve Diş Sağlığı Polikliniği'nde kanal tedavisi uzmanı (Endodontist) olarak çalışmaktadır. İngilizce ve Fransızca bilmektedir. Türk Endodonti Derneği, Türk Dişhekimleri Birliği ve Ankara Dişhekimleri Odası üyesidir."
     }
   ],
   "Contact": {

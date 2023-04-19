@@ -19,8 +19,7 @@ export const Team = (props) => {
             animateOnce={true}
           >
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+             Alanında uzman hekimlerimizle hizmetinizdeyiz.
             </p>
           </AnimationOnScroll>
         </div>
@@ -29,7 +28,7 @@ export const Team = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
                   <figure>
-                    <div className="thumbnail hover01 img-responsive">
+                    <div className="thumbnail hover01 img-responsive" style={{marginBottom: 10}}>
                       {" "}
                       <Link
                         to="/doctors"
@@ -42,7 +41,6 @@ export const Team = (props) => {
                       >
                         <img src={d.img} alt="..." />
                       </Link>
-                      <div className="caption" style={{ marginTop: 20 }}></div>
                     </div>
                   </figure>
                   <h4 style={{ marginBottom: 20 }}>{d.name}</h4>
