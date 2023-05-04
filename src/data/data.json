@@ -85,7 +85,7 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "../img/injection.png",
+      "icon": "../img/dolgu2.png",
       "name": "Estetik Dolgu",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
@@ -95,7 +95,7 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "../img/anesthesia.png",
+      "icon": "../img/dentist-tools.png",
       "name": "Koruyucu Tedaviler",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
@@ -105,7 +105,7 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "../img/anesthesia.png",
+      "icon": "../img/zirkonyum2.png",
       "name": "Zirkonyum Dişler",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
@@ -115,12 +115,12 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "../img/dentist-tools.png",
+      "icon": "../img/anesthesia.png",
       "name": "Ağız, Diş ve Çene Cerrahisi",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "../img/anesthesia.png",
+      "icon": "../img/eklem.png",
       "name": "Eklem Tedavileri",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
