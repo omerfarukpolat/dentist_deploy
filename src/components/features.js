@@ -8,8 +8,10 @@ import {
 import useWindowDimensions from "../hooks/useWindowDimensions";
 
 
+import {useTranslation} from "react-i18next";
 
 export const Features = (props) => {
+  const { t } = useTranslation();
   const { height, width } = useWindowDimensions();
   let items = [
     {
@@ -73,7 +75,7 @@ export const Features = (props) => {
       >
         <div style={{ marginRight: 100 }} >
           <div style={{ marginBottom: "4vh" }}>
-            <h1 style={{ color: "black" }}>Doğru Teşhis & Gerekli Tedavi</h1>
+            <h1 style={{ color: "black" }}>{props.data ? (t(props.data.dogru_teshis)) : "loading..."}</h1>
             <Divider
               sx={{
                 width: "19vw",
@@ -83,12 +85,8 @@ export const Features = (props) => {
             />
           </div>
           <p style={{ fontSize: 20 }}>
-            Dentics'e başvuran her hastamızı uzman kadromuz özenle muayene eder.
-            Hastamızın şikayetini dikkatle dinleriz. Ağız muayenesi ve
-            radyolojik tetkiklerin ışığında, var olan soruna doğru teşhisi
-            koymak başarılı tedavinin ilk şartıdır. Teşhis sonrası hastamızın
-            beklentileri de göz önünde bulundurularak, tüm uzman hekimlerimizin
-            ortak görüşü olan tedavi planını uygulamaktayız.
+              {props.data ? (t(props.data.feature)) : "loading..."}
+
           </p>
         </div>
         <div style={{ width: "100vw", marginLeft: width > 900 ? "10vw": "0vw"}}>

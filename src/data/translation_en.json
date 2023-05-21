@@ -1,0 +1,66 @@
+{
+    "title": "DENTICS Oral and Dental Health Clınıc",
+    "hakkimizda": "ABOUT US",
+    "neden": "Why Dentics?",
+    "ekip": "Our Team",
+    "hizmetinizde": "We are at your service with our expert physicians.",
+    "biz_kimiz": "Who We Are?",
+    "ekibimiz": "Our Team",
+    "tedaviler": "Treatments",
+    "iletisim": "Contact",
+    "daha_fazla": "Learn More",
+    "hizmetler": "Dentıcs Servıces",
+    "dogru_teshis": "Accurate Diagnosis & Necessary Treatment",
+    "feature": "Our expert staff carefully examines every patient who applies to Dentics. We listen to our\npatients’ complaints carefully. In the light of oral examination and radiological examinations,\nmaking the correct diagnosis of the existing problem is the first condition of successful\ntreatment. Considering the expectations of our patient after the diagnosis, we apply the\ntreatment plan, which is the common opinion of all our specialist dentists.",
+    "hekimlerimiz": "Doctors",
+    "bize_danis": "Contact Us",
+    "bize_danis_aciklama": "Our expert doctors are always at your service. You can contact us by filling out the form below. We will provide you with feedback as soon as possible.",
+    "adres": "Address",
+    "telefon": "Phone",
+    "mesaj": "Send Message",
+    "isim": "Name",
+    "mesaj_place": "Message",
+
+    "About": {
+        "paragraph": "Dentics is an \"Oral and Dental Health Polyclinic\" founded in 1995 by a group of idealist\nspecialist (PhD degree) dentists. Dentics is the first polyclinic in Ankara where the concept of\nworking together with the ideal of providing quality health care services is applied by dentists\nspecializing in different disciplines. We continue to serve in this direction without changing\nour founding purpose and working principles throughout the years.\nAs of 2023, more than twelve thousand people have chosen us for their dental treatments.\nThese very valuable patients are mainly; foreign mission officers and diplomats from many\ndifferent countries, United Nations employees and diplomats, employees and retirees of\nİşbank, Garanti BBVA and the Central Bank of the Republic of Türkiye, TED Ankara College\ngraduates and their families, our dear neighbors living in Güvenevler and Ayrancı. Gaining\nthe trust of people from so many different environments is our greatest achievement and\nsource of pride as Dentics.",
+        "alaninda_uzman": "Expert Dentists",
+        "kis_bakim": "Personalized Care",
+        "modern_tek": "Modern Technology",
+        "Zengin_tedavi_secenekleri": "Wide Range of Treatments",
+        "Hasta_memnuniyeti":"Patient Satisfaction",
+        "Konforlu_ortam": "Comfortable Environment"
+    },
+
+    "Services": {
+        "title": "Services",
+        "implant": "Dental Implant Treatment",
+        "dis_eti": "Gum Disease Treatment",
+        "dis_beyaz": "Whitening",
+        "eklem_tedavi": "Joint Treatments",
+        "kanal": "Root Canal Treatment",
+        "estetik_dol": "Fillings",
+        "yumusak_doku": "Soft Tissue Esthetics",
+        "agiz_dis_cene": "Oral and Dental Surgery",
+        "sabit_protez": "Fixed Prosthetics",
+        "hareketli_protez": "Removable Prosthetics"
+    },
+
+    "Testimonials": {
+        "cemile": "She was born in Ankara. She is a graduate of Sokullu Mehmet Pasha High School. She\ngraduated from Anadolu University, Department of Public Administration.\nShe joined the Dentics family in 2007.\nShe speaks English.",
+        "cemile_title": "Receptionist and Patient Relations",
+        "gulseren": "She was born in Ankara. She studied at Ankara Deneme High School during her secondary\nand high school years.\nShe joined the Dentics family in 1997.\nShe completed the training given by the Ministry of Health in 2013 and earned the title of\nOral and Dental Health Technician.",
+        "gulseren_title": "Oral and Dental Health Technician",
+        "aysegul": "She was born in Ankara. She graduated from Sincan Ibn-i Sina High School.\nShe joined the Dentics family in 2015.\nShe is still working as a dental assistant.",
+        "aysegul_title": "Dental Assistant"
+    },
+
+    "Team": {
+        "fuat": "Fuat Kesim was born in Ankara and completed his primary, secondary and high school\neducation at TED Ankara College. After graduating from Hacettepe University Faculty of\nDentistry, he started his doctorate education at Ankara University, Department of Prosthetic\nDentistry. He completed his thesis on \"Comparison of different porcelain inlay manufacturing\ntechniques\" and became a Doctor of Science (1996). Later, he completed his military service\nby serving as a reserve officer specialist dentist in Ankara Gülhane Military Medical Academy\nDentistry Department.\nHe has been working as a founding partner and Prosthodontist at Dentics Oral and Dental\nHealth Polyclinic since 1995.\nHe speaks English and Russian.\nHe is a member of the Turkish Dental Association, Ankara Chamber of Dentists.",
+        "fuat_title": "Prosthodontist",
+        "serpil": "Serpil Başoğlu was born in Ankara and completed her education in Ankara Halide Edip High\nSchool. After graduating from Ankara University Faculty of Dentistry, she started her\ndoctorate education at Hacettepe University Faculty of Dentistry, Department of\nPeriodontology. She completed her doctorate education with the thesis titled \"The\nhistological and clinical comparison of bleeding indices in patients with periodontitis and the\nexamination of their relationship with gingivitis, pocket depth\" and became a Doctor of\nScience.\nShe has been working as a Periodontist in Dentics Oral and Dental Health Polyclinic since\n1999.\nShe is a member of Turkish Society of Periodontology, Turkish Dental Association and\nAnkara Chamber of Dentists.",
+        "serpil_title": "Periodontist (Periodontics)",
+        "doga": "İlke Doğa Şeker was born in Ankara. She completed her education at Ankara Private Tevfik\nFikret Primary School and Dr. Binnaz Ege - Dr. Rıdvan Ege Anatolian High School. After\ngraduating from Hacettepe University Faculty of Dentistry, she started her doctorate\neducation at Gazi University Faculty of Dentistry, Department of Endodontics. İlke Doğa\nŞeker, who participated in many congresses and seminars, completed her doctoral\neducation as a Council of Higher Education PhD Scholarship with her thesis titled \" In vitro\ninvestigation of the antibacterial effects of R-Limonene nanoemulsions on root dentin\" and\nbecame a Doctor of Science.\nShe has been working as an Endodontist at Dentics Oral and Dental Health Polyclinic since\n2021.\nShe speaks English and French.\nShe is a member of Turkish Endodontic Society, Turkish Dental Association and Ankara\nChamber of Dentists.",
+        "doga_title": "Endodontist (Root Canal Treatment)"
+    }
+}
+

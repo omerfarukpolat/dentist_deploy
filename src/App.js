@@ -3,8 +3,8 @@ import "./App.css";
 import Layout from "./pages/Layout";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Team } from "./components/Team";
-import { useEffect, useState } from "react";
-import JsonData from "./data/data.json";
+import React, { useEffect, useState } from "react";
+import JsonData from "./data/data_2.json";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
@@ -17,6 +17,9 @@ import AllPages from "./components/allpages";
 import { Temp } from "./components/temp";
 import "animate.css/animate.min.css";
 import { TeamDetails } from "./components/teamDetails";
+import LanguageSwitcher from "./components/LanguageSwitcher";
+import { useTranslation, withTranslation, Trans } from 'react-i18next';
+
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -25,6 +28,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+  const { t } = useTranslation();
 
   useEffect(() => {
     setLandingPageData(JsonData);
@@ -34,7 +38,7 @@ const App = () => {
     <div lang={"tr"}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Layout data={landingPageData.Layout} />}>
             <Route index element={<AllPages />} />
             <Route
               path="about"

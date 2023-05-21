@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import {useTranslation} from "react-i18next";
 
 export const Team = (props) => {
+  const { t } = useTranslation();
   return (
     <div id="team" className="text-center team-background">
       <div className="container">
@@ -11,7 +13,7 @@ export const Team = (props) => {
             duration={2}
             animateOnce={true}
           >
-            <h2>Hekimlerimiz</h2>
+            <h2>{props.data ? (t(props.data.hekimlerimiz)) : "loading..."}</h2>
           </AnimationOnScroll>
           <AnimationOnScroll
             animateIn="animate__fadeInDown"
@@ -19,13 +21,14 @@ export const Team = (props) => {
             animateOnce={true}
           >
             <p>
-             Alanında uzman hekimlerimizle hizmetinizdeyiz.
+              {props.data ? (t(props.data.hizmetinizde)) : "loading..."}
+
             </p>
           </AnimationOnScroll>
         </div>
         <div id="row">
           {props.data
-            ? props.data.map((d, i) => (
+            ? props.data.doctors.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
                   <figure>
                     <div className="thumbnail hover01 img-responsive" style={{marginBottom: 10}}>

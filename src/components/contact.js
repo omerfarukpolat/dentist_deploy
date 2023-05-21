@@ -3,12 +3,17 @@ import emailjs from "emailjs-com";
 import { Navigation } from "./navigation";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
+import {useTranslation} from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
+
 const initialState = {
   name: "",
   email: "",
   message: "",
 };
 export const Contact = (props) => {
+
+  const { t } = useTranslation();
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: "AIzaSyA1idgC32DjdE964FagB7Mc_wQe2pxN2r4",
   });
@@ -42,11 +47,9 @@ export const Contact = (props) => {
           <div className="col-md-6">
             <div className="row">
               <div className="section-title">
-                <h2>BİZE DANIŞABİLİRSİNİZ</h2>
+                <h2>{props.data ? (t(props.data.bize_danis)) : "loading..."}</h2>
                 <p>
-                  Uzman hekimlerimiz ile her zaman hizmetinizdeyiz. Bize
-                  danışabilirsiniz. Bunun için aşağıdaki formu doldurmanız
-                  yeterlidir. En kısa sürede size geri bildirim yapacağız.
+                  {props.data ? (t(props.data.bize_danis_aciklama)) : "loading..."}
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -58,7 +61,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="İsim"
+                        placeholder={props.data ? (t(props.data.isim)) : "loading..."}
                         required
                         onChange={handleChange}
                       />
@@ -87,7 +90,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Mesaj"
+                    placeholder={props.data ? (t(props.data.mesaj_place)) : "loading..."}
                     required
                     onChange={handleChange}
                   />
@@ -95,17 +98,18 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Mesaj Gönder
+                  {props.data ? (t(props.data.mesaj)) : "loading..."}
                 </button>
               </form>
             </div>
           </div>
+
           <div className="col-md-5 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>İletişim</h3>
+              <h3> {props.data ? (t(props.data.iletisim)) : "loading..."}</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Adres
+                  <i className="fa fa-map-marker"></i> {props.data ? (t(props.data.adres)) : "loading..."}
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -114,11 +118,21 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Telefon
+                  <i className="fa fa-phone"></i> {props.data ? (t(props.data.telefon)) : "loading..."}
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
             </div>
+            <div className="contact-item">
+              <p>
+                <span>
+                  <i className="fa fa-instagram"></i> Instagram
+                </span>{" "}
+                <a href={"https://instagram.com/dentics_"} className="white-link"> @dentics_</a>
+
+              </p>
+            </div>
+
           </div>
           {isLoaded && (
             <GoogleMap
@@ -129,7 +143,12 @@ export const Contact = (props) => {
               <Marker position={{ lat: 39.90069, lng: 32.85846 }} />
             </GoogleMap>
           )}
+          <div className="text-center"> {/* Add a container div with the "text-center" class */}
+            <LanguageSwitcher />
+          </div>
+
         </div>
+
       </div>
       <div id="footer">
         <div className="container text-center">

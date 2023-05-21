@@ -1799,3 +1799,7 @@
 .fa-medium:before {
   content: "\f23a";
 }
+.white-link {
+  color: white;
+  /* Add more styles if needed */
+}

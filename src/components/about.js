@@ -1,7 +1,9 @@
 import { Navigation } from "./navigation";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import {useTranslation} from "react-i18next";
 
 export const About = (props) => {
+  const { t } = useTranslation();
   return (
     <div id="about" className={"about-background"}>
       <div className="container">
@@ -28,7 +30,7 @@ export const About = (props) => {
                 duration={2}
                 animateOnce={true}
               >
-                <h2>Hakkımızda</h2>
+                <h2>{props.data ? (t(props.data.hakkimizda)) : "loading..."}</h2>
               </AnimationOnScroll>
               <AnimationOnScroll
                 animateIn="animate__fadeInRight"
@@ -36,7 +38,7 @@ export const About = (props) => {
                 duration={2}
                 animateOnce={true}
               >
-                <p>{props.data ? props.data.paragraph : "loading..."}</p>
+                <p>{props.data ? (t(props.data.paragraph)) : "loading..."}</p>
               </AnimationOnScroll>
               <AnimationOnScroll
                 animateIn="animate__fadeInLeft"
@@ -44,7 +46,7 @@ export const About = (props) => {
                 duration={2}
                 animateOnce={true}
               >
-                <h3>Neden Dentics?</h3>
+                <h3>{props.data ? (t(props.data.neden_dentics)) : "loading..."}</h3>
               </AnimationOnScroll>
               <AnimationOnScroll
                 animateIn="animate__fadeInLeft"
@@ -57,7 +59,7 @@ export const About = (props) => {
                     <ul>
                       {props.data
                         ? props.data.Why.map((d, i) => (
-                            <li key={`${d}-${i}`}>{d}</li>
+                            <li key={`${d}-${i}`}>{t(d)}</li>
                           ))
                         : "loading"}
                     </ul>
@@ -66,7 +68,7 @@ export const About = (props) => {
                     <ul>
                       {props.data
                         ? props.data.Why2.map((d, i) => (
-                            <li key={`${d}-${i}`}> {d}</li>
+                            <li key={`${d}-${i}`}> {t(d)}</li>
                           ))
                         : "loading"}
                     </ul>

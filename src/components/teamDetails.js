@@ -3,9 +3,12 @@ import team from "../img/team/en_ustte_arkaplanda.JPG";
 import { Contact } from "./contact";
 import { useEffect, useState } from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-import JsonData from "../data/data.json";
+import JsonData from "../data/data_2.json";
+import {useTranslation} from "react-i18next";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 export const TeamDetails = () => {
+
+  const { t } = useTranslation();
   const { height, width } = useWindowDimensions();
   const location = useLocation();
   const data = location.state;
@@ -95,9 +98,9 @@ export const TeamDetails = () => {
                   className={"about-text"}
               >
                 <h2>{data.name}</h2>
-                <h1>{data.title}</h1>
+                <h1>{t(data.title)}</h1>
                 <div style={{ height: "3vh" }}></div>
-                <p>{data.description}</p>
+                <p>{t(data.description)}</p>
               </div>
             </AnimationOnScroll>
           </div>
@@ -118,9 +121,9 @@ export const TeamDetails = () => {
                   className={"about-text"}
               >
                 <h2>{data.name}</h2>
-                <h1>{data.title}</h1>
+                <h1>{t(data.title)}</h1>
                 <div style={{ height: "3vh" }}></div>
-                <p>{data.description}</p>
+                <p>{t(data.description)}</p>
               </div>
             </AnimationOnScroll>
           <div

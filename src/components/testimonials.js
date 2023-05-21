@@ -1,16 +1,19 @@
 import {Navigation} from "./navigation";
 import {Link} from "react-router-dom";
+import {useTranslation} from "react-i18next";
+
 
 export const Testimonials = (props) => {
-  return (
+    const { t } = useTranslation();
+    return (
     <div id='testimonials' className="text-center">
       <div className='container'>
         <div className='section-title text-center'>
-          <h2>Ekip Arkadaşlarımız</h2>
+          <h2>{props.data ? (t(props.data.ekip)) : "loading..."}</h2>
         </div>
         <div id="row">
           {props.data
-              ? props.data.map((d, i) => (
+              ? props.data.staff.map((d, i) => (
                   <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
                     <figure>
                       <div className="thumbnail hover01 img-responsive" style={{marginBottom: 10}}>
