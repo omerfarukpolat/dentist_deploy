@@ -104,6 +104,11 @@ const Layout = (props) => {
                   {props.data ? (t(props.data.iletisim)) : "loading..."}
                 </a>
               </li>
+              <li>
+
+                  <LanguageSwitcher />
+
+              </li>
             </ul>
           </div>
         </div>

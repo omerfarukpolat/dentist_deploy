@@ -143,9 +143,7 @@ export const Contact = (props) => {
               <Marker position={{ lat: 39.90069, lng: 32.85846 }} />
             </GoogleMap>
           )}
-          <div className="text-center"> {/* Add a container div with the "text-center" class */}
-            <LanguageSwitcher />
-          </div>
+
 
         </div>
 

@@ -157,19 +157,19 @@
     "doctors":[
     {
       "img": "img/team/fuat_kesim.JPG",
-      "name": "Dr. Dt. Fuat Kesim",
+      "name": "Team.Fuat_Kesim",
       "title": "Team.fuat_title",
       "description": "Team.fuat"
     },
     {
       "img": "img/team/serpil_basoglu.JPG",
-      "name": "Dr. Dt. Serpil Başoğlu",
+      "name": "Team.Serpil_Başoğlu",
       "title": "Team.serpil_title",
       "description": "Team.serpil"
     },
     {
       "img": "img/team/ilke_doga_seker.JPG",
-      "name": "Dr. Dt. İlke Doğa (Aymergen) Şeker",
+      "name": "Team.Doğa_Şeker",
       "title": "Team.doga_title",
       "description": "Team.doga"
     }

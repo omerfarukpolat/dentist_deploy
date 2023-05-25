@@ -36,7 +36,7 @@ export const Team = (props) => {
                       <Link
                         to="/doctors"
                         state={{
-                          name: d.name,
+                          name: t(d.name),
                           image: d.img,
                           description: d.description,
                           title: d.title,
@@ -46,7 +46,7 @@ export const Team = (props) => {
                       </Link>
                     </div>
                   </figure>
-                  <h4 style={{ marginBottom: 20 }}>{d.name}</h4>
+                  <h4 style={{ marginBottom: 20 }}>{t(d.name)}</h4>
                 </div>
               ))
             : "loading"}

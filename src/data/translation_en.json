@@ -3,7 +3,7 @@
     "hakkimizda": "ABOUT US",
     "neden": "Why Dentics?",
     "ekip": "Our Team",
-    "hizmetinizde": "We are at your service with our expert physicians.",
+    "hizmetinizde": "We are at your service with our expert doctors.",
     "biz_kimiz": "Who We Are?",
     "ekibimiz": "Our Team",
     "tedaviler": "Treatments",
@@ -20,6 +20,7 @@
     "mesaj": "Send Message",
     "isim": "Name",
     "mesaj_place": "Message",
+
 
     "About": {
         "paragraph": "Dentics is an \"Oral and Dental Health Polyclinic\" founded in 1995 by a group of idealist\nspecialist (PhD degree) dentists. Dentics is the first polyclinic in Ankara where the concept of\nworking together with the ideal of providing quality health care services is applied by dentists\nspecializing in different disciplines. We continue to serve in this direction without changing\nour founding purpose and working principles throughout the years.\nAs of 2023, more than twelve thousand people have chosen us for their dental treatments.\nThese very valuable patients are mainly; foreign mission officers and diplomats from many\ndifferent countries, United Nations employees and diplomats, employees and retirees of\nİşbank, Garanti BBVA and the Central Bank of the Republic of Türkiye, TED Ankara College\ngraduates and their families, our dear neighbors living in Güvenevler and Ayrancı. Gaining\nthe trust of people from so many different environments is our greatest achievement and\nsource of pride as Dentics.",
@@ -60,7 +61,10 @@
         "serpil": "Serpil Başoğlu was born in Ankara and completed her education in Ankara Halide Edip High\nSchool. After graduating from Ankara University Faculty of Dentistry, she started her\ndoctorate education at Hacettepe University Faculty of Dentistry, Department of\nPeriodontology. She completed her doctorate education with the thesis titled \"The\nhistological and clinical comparison of bleeding indices in patients with periodontitis and the\nexamination of their relationship with gingivitis, pocket depth\" and became a Doctor of\nScience.\nShe has been working as a Periodontist in Dentics Oral and Dental Health Polyclinic since\n1999.\nShe is a member of Turkish Society of Periodontology, Turkish Dental Association and\nAnkara Chamber of Dentists.",
         "serpil_title": "Periodontist (Periodontics)",
         "doga": "İlke Doğa Şeker was born in Ankara. She completed her education at Ankara Private Tevfik\nFikret Primary School and Dr. Binnaz Ege - Dr. Rıdvan Ege Anatolian High School. After\ngraduating from Hacettepe University Faculty of Dentistry, she started her doctorate\neducation at Gazi University Faculty of Dentistry, Department of Endodontics. İlke Doğa\nŞeker, who participated in many congresses and seminars, completed her doctoral\neducation as a Council of Higher Education PhD Scholarship with her thesis titled \" In vitro\ninvestigation of the antibacterial effects of R-Limonene nanoemulsions on root dentin\" and\nbecame a Doctor of Science.\nShe has been working as an Endodontist at Dentics Oral and Dental Health Polyclinic since\n2021.\nShe speaks English and French.\nShe is a member of Turkish Endodontic Society, Turkish Dental Association and Ankara\nChamber of Dentists.",
-        "doga_title": "Endodontist (Root Canal Treatment)"
+        "doga_title": "Endodontist (Root Canal Treatment)",
+        "Serpil_Başoğlu": "Serpil Başoğlu, DDS, PhD",
+        "Doğa_Şeker": "İlke Doğa (Aymergen) Şeker, DDS, PhD",
+        "Fuat_Kesim": "Fuat Kesim, DDS, PhD"
     }
 }
 
