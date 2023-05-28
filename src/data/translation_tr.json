@@ -21,6 +21,10 @@
   "isim": "İsim",
   "mesaj_place": "Mesaj",
 
+  "İlke Doğa (Aymergen) Şeker, DDS, PhD": "Dr. Dt. İlke Doğa (Aymergen) Şeker",
+  "Fuat Kesim, DDS, PhD": "Dr. Dt. Fuat Kesim",
+  "Serpil Başoğlu, DDS, PhD": "Dr. Dt. Serpil Başoğlu",
+
 
 
   "About": {
@@ -66,7 +70,10 @@
     "doga_title": "Endodontist (Kanal Tedavisi)",
     "Serpil_Başoğlu": "Dr. Dt. Serpil Başoğlu",
     "Doğa_Şeker": "Dr. Dt. İlke Doğa (Aymergen) Şeker",
-    "Fuat_Kesim": "Dr. Dt. Fuat Kesim"
+    "Fuat_Kesim": "Dr. Dt. Fuat Kesim",
+    "İlke Doğa (Aymergen) Şeker, DDS, PhD": "Dr. Dt. İlke Doğa (Aymergen) Şeker",
+    "Fuat Kesim, DDS, PhD": "Dr. Dt. Fuat Kesim",
+    "Serpil Başoğlu, DDS, PhD": "Dr. Dt. Serpil Başoğlu"
   }
 
 }

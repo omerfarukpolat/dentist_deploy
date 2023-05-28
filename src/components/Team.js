@@ -29,7 +29,7 @@ export const Team = (props) => {
         <div id="row">
           {props.data
             ? props.data.doctors.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
+                <div key={`${t(d.name)}-${i}`} className="col-md-3 col-sm-6 team">
                   <figure>
                     <div className="thumbnail hover01 img-responsive" style={{marginBottom: 10}}>
                       {" "}

@@ -120,7 +120,7 @@ export const TeamDetails = () => {
                   style={{ marginLeft: "5vw", maxWidth: "100vw", color: "black", marginTop: "10vh" }}
                   className={"about-text"}
               >
-                <h2>{data.name}</h2>
+                <h2>{t(data.name)}</h2>
                 <h1>{t(data.title)}</h1>
                 <div style={{ height: "3vh" }}></div>
                 <p>{t(data.description)}</p>

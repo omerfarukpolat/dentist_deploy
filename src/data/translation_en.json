@@ -20,6 +20,9 @@
     "mesaj": "Send Message",
     "isim": "Name",
     "mesaj_place": "Message",
+    "Dr. Dt. İlke Doğa (Aymergen) Şeker": "İlke Doğa (Aymergen) Şeker, DDS, PhD",
+    "Dr. Dt. Fuat Kesim": "Fuat Kesim, DDS, PhD",
+    "Dr. Dt. Serpil Başoğlu": "Serpil Başoğlu, DDS, PhD",
 
 
     "About": {
@@ -64,7 +67,10 @@
         "doga_title": "Endodontist (Root Canal Treatment)",
         "Serpil_Başoğlu": "Serpil Başoğlu, DDS, PhD",
         "Doğa_Şeker": "İlke Doğa (Aymergen) Şeker, DDS, PhD",
-        "Fuat_Kesim": "Fuat Kesim, DDS, PhD"
+        "Fuat_Kesim": "Fuat Kesim, DDS, PhD",
+        "Dr. Dt. İlke Doğa (Aymergen) Şeker": "İlke Doğa (Aymergen) Şeker, DDS, PhD",
+        "Dr. Dt. Fuat Kesim": "Fuat Kesim, DDS, PhD",
+        "Dr. Dt. Serpil Başoğlu": "Serpil Başoğlu, DDS, PhD"
     }
 }
 
