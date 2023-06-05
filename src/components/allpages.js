@@ -8,7 +8,7 @@ import { Gallery } from "./gallery";
 import { Testimonials } from "./testimonials";
 import { Team } from "./Team";
 import { Contact } from "./contact";
-import JsonData from "../data/data.json";
+import JsonData from "../data/data_2.json";
 import "../App.css";
 
 const AllPages = () => {
@@ -23,9 +23,9 @@ const AllPages = () => {
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
       <Team data={landingPageData.Team} />
-      <Features data={landingPageData.Features} />
-      <Services data={landingPageData.Services} />
       <Testimonials data={landingPageData.Testimonials} />
+      <Services data={landingPageData.Services} />
+      <Features data={landingPageData.Features} />
       <Contact data={landingPageData.Contact} />
       <a
         href="https://wa.me/905548764436"

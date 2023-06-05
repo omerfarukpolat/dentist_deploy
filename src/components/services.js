@@ -1,20 +1,23 @@
 import { Navigation } from "./navigation";
 import { Avatar } from "@mui/material";
+import {useTheme} from "@mui/styles";
+import {useTranslation} from "react-i18next";
 
 export const Services = (props) => {
+    const { t } = useTranslation();
   return (
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Dentics Hizmetlerimiz</h2>
+          <h2>{props.data ? (t(props.data.hizmet)) : "loading..."}</h2>
         </div>
         <div>
           {props.data
-            ? props.data.map((d, i) => (
+            ? props.data.services.map((d, i) => (
                 <div>
                   <div
-                    key={`${d.name}-${i}`}
-                    className="col-md-3"
+                    key={`${t(d.name)}-${i}`}
+                    className="col-md-2"
                     style={{
                       display: "flex",
                       flexDirection: "column",
@@ -36,7 +39,7 @@ export const Services = (props) => {
                       }}
                     />
                     <div className="service-desc">
-                      <h3 style={{ color: "black" }}>{d.name}</h3>
+                      <h3 style={{ color: "black" }}>{t(d.name)}</h3>
                     </div>
                   </div>
                 </div>

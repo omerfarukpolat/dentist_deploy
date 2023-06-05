@@ -1,0 +1,200 @@
+{
+  "Layout": {
+    "biz_kimiz": "biz_kimiz",
+    "ekibimiz": "ekibimiz",
+    "tedaviler": "tedaviler",
+    "iletisim": "iletisim"
+  },
+  "Header": {
+    "title": "title",
+    "paragraph": "",
+    "daha_fazla": "daha_fazla"
+
+  },
+  "About": {
+    "hakkimizda": "hakkimizda",
+    "neden_dentics": "neden",
+    "paragraph": "About.paragraph",
+    "Why": [
+      "About.alaninda_uzman",
+      "About.kis_bakim",
+      "About.modern_tek"
+    ],
+    "Why2": [
+      "About.Zengin_tedavi_secenekleri",
+      "About.Hasta_memnuniyeti",
+      "About.Konforlu_ortam"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services":{
+    "hizmet": "hizmetler",
+    "services":[
+    {
+      "icon": "../img/implant.png",
+      "name": "Services.implant",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "../img/dentistry.png",
+      "name": "Services.dis_eti",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "../img/tooth-whitening.png",
+      "name": "Services.dis_beyaz",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "../img/root-canal.png",
+      "name": "Services.kanal",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "../img/dolgu2-1.png",
+      "name": "Services.estetik_dol",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "../img/eklem.png",
+      "name": "Services.eklem_tedavi",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "../img/diamond.png",
+      "name": "Services.yumusak_doku",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "../img/anesthesia.png",
+      "name": "Services.agiz_dis_cene",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "../img/sabit-1.png",
+      "name": "Services.sabit_protez",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "../img/zirkonyum2.png",
+      "name": "Services.hareketli_protez",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ]},
+  "Testimonials":{
+  "ekip":"ekip",
+  "staff":
+  [
+    {
+      "img": "img/team/gulseren_agca.JPG",
+      "name": "Gülseren Ağca",
+      "title": "Testimonials.gulseren_title",
+      "description": "Testimonials.gulseren"
+    },
+    {
+      "img": "img/team/aysegul_akgul.JPG",
+      "name": "Ayşegül Akgül",
+      "title": "Testimonials.aysegul_title",
+      "description": "Testimonials.aysegul"
+    },
+    {
+      "img": "img/team/cemile_gulengoz_erdogan.JPG",
+      "name": "Cemile Gülengöz Erdoğan",
+      "title": "Testimonials.cemile_title",
+      "description": "Testimonials.cemile"
+    }
+  ]},
+
+  "Team": {
+    "hekimlerimiz": "hekimlerimiz",
+    "hizmetinizde": "hizmetinizde",
+    "doctors":[
+    {
+      "img": "img/team/fuat_kesim.JPG",
+      "name": "Team.Fuat_Kesim",
+      "title": "Team.fuat_title",
+      "description": "Team.fuat"
+    },
+    {
+      "img": "img/team/serpil_basoglu.JPG",
+      "name": "Team.Serpil_Başoğlu",
+      "title": "Team.serpil_title",
+      "description": "Team.serpil"
+    },
+    {
+      "img": "img/team/ilke_doga_seker.JPG",
+      "name": "Team.Doğa_Şeker",
+      "title": "Team.doga_title",
+      "description": "Team.doga"
+    }
+  ]
+  },
+
+  "Contact": {
+    "address": "Kavaklıdere, Kavaklıdere Sok. No:3 D:3, 06690 Çankaya/Ankara ",
+    "phone": "0 312 468 7678",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com",
+    "bize_danis": "bize_danis",
+    "bize_danis_aciklama":"bize_danis_aciklama",
+    "iletisim": "iletisim",
+    "adres": "adres",
+    "telefon": "telefon",
+    "mesaj": "mesaj",
+    "isim": "isim",
+    "mesaj_place": "mesaj_place"
+
+  },
+  "Features": {
+    "feature": "feature",
+    "dogru_teshis": "dogru_teshis"
+  }
+}

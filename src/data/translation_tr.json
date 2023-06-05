@@ -1,0 +1,79 @@
+{
+  "title": "DENTICS Ağız ve Diş Sağlığı Polikliniği",
+  "hakkimizda": "HAKKIMIZDA",
+  "neden": "Neden Dentics?",
+  "ekip": "Ekip Arkadaşlarımız",
+  "hizmetinizde": "Alanında uzman hekimlerimizle hizmetinizdeyiz.",
+  "biz_kimiz": "Biz Kimiz ?",
+  "ekibimiz": "Ekibimiz",
+  "tedaviler": "Tedaviler",
+  "iletisim": "İletişim",
+  "daha_fazla": "Daha Fazla",
+  "hizmetler": "Dentics Hizmetlerimiz",
+  "dogru_teshis": "Doğru Teşhis & Gerekli Tedavi",
+  "feature": "Dentics'e başvuran her hastamızı uzman kadromuz özenle muayene eder.\n            Hastamızın şikayetini dikkatle dinleriz. Ağız muayenesi ve\n            radyolojik tetkiklerin ışığında, var olan soruna doğru teşhisi\n            koymak başarılı tedavinin ilk şartıdır. Teşhis sonrası hastamızın\n            beklentileri de göz önünde bulundurularak, tüm uzman hekimlerimizin\n            ortak görüşü olan tedavi planını uygulamaktayız.",
+  "hekimlerimiz": "Hekimlerimiz",
+  "bize_danis": "Bize Danışabilirsiniz",
+  "bize_danis_aciklama": "Uzman hekimlerimiz ile her zaman hizmetinizdeyiz. Bize\n                  danışabilirsiniz. Bunun için aşağıdaki formu doldurmanız\n                  yeterlidir. En kısa sürede size geri bildirim yapacağız.",
+  "adres": "Adres",
+  "telefon": "Telefon",
+  "mesaj": "Mesaj Gönder",
+  "isim": "İsim",
+  "mesaj_place": "Mesaj",
+
+  "İlke Doğa (Aymergen) Şeker, DDS, PhD": "Dr. Dt. İlke Doğa (Aymergen) Şeker",
+  "Fuat Kesim, DDS, PhD": "Dr. Dt. Fuat Kesim",
+  "Serpil Başoğlu, DDS, PhD": "Dr. Dt. Serpil Başoğlu",
+
+
+
+  "About": {
+    "paragraph": "Dentics 1995 yılında bir grup idealist uzman (PhD dereceli) diş hekimi tarafından kurulmuş bir \"Ağız ve Diş Sağlığı Polikliniği\"dir. Farklı bilim dallarında uzmanlaşmış diş hekimlerinin kaliteli sağlık hizmeti verme ideali ile bir arada çalışması konseptinin Ankara'daki ilk uygulama yeri Dentics'tir. Yıllar içinde kuruluş amacımızı ve çalışma prensiplerimizi değiştirmeden, bu doğrultuda hizmet vermeye devam etmekteyiz. 2023 yılı itibariyle on iki binden fazla kişi diş tedavileri için bizi tercih etmiştir. Bu çok değerli hastalarımız ağırlıklı olarak; birçok farklı ülkeden yabancı misyon görevlileri ve diplomatlar, birleşmiş milletler çalışanları ve diplomatlar, Türkiye İş Bankası, Garanti BBVA ve Türkiye Cumhuriyeti Merkez Bankası çalışanları ve emeklileri, TED Ankara Koleji mezunları ve aileleri, Güvenevler ve Ayrancı'da yaşayan çok sevgili komşularımızdır. Bu kadar çok farklı çevreden kişilerin güvenini kazanmış olmak, Dentics olarak en büyük başarımız ve gurur kaynağımızdır.",
+    "alaninda_uzman": "Alanında Uzman Diş Hekimleri",
+    "kis_bakim": "Kişiselleştirilmiş Bakım",
+    "modern_tek": "Modern Teknoloji",
+    "Zengin_tedavi_secenekleri": "Zengin tedavi seçenekleri",
+    "Hasta_memnuniyeti":"Hasta memnuniyeti",
+    "Konforlu_ortam": "Konforlu ortam"
+  },
+
+  "Services": {
+    "title": "services",
+    "implant": "İmplant Tedavisi",
+    "dis_eti": "Diş Eti Tedavisi",
+    "dis_beyaz": "Diş Beyazlatma",
+    "eklem_tedavi": "Eklem Tedavileri",
+    "kanal": "Kanal Tedavisi",
+    "estetik_dol": "Estetik Dolgu",
+    "yumusak_doku": "Yumuşak Doku Estetiği",
+    "agiz_dis_cene": "Ağız, Diş ve Çene Cerrahisi",
+    "sabit_protez": "Sabit Protezler",
+    "hareketli_protez": "Hareketli Protezler"
+
+  },
+
+  "Testimonials": {
+    "cemile": "Ankara doğumludur. Sokullu Mehmet Paşa Lisesi mezunudur. Anadolu Üniversitesi Kamu Yönetimi bölümünü bitirmiştir. 2007 yılında Dentics ailesine katılmıştır. İngilizce bilmektedir.",
+    "cemile_title": "Resepsiyonist ve Hasta İlişkileri" ,
+    "gulseren": "Ankara doğumludur. Ortaokul ve lise yıllarında Ankara Deneme Lisesi'nde öğrenim görmüştür. 1997 yılında Dentics ailesine katılmıştır. 2013 yılında Sağlık Bakanlığı tarafından verilen eğitimi tamamlayarak Ağız ve Diş Sağlığı Teknikeri unvanını kazanmıştır.",
+    "gulseren_title": "Ağız ve Diş Sağlığı Teknikeri",
+    "aysegul": "Ankara doğumludur. Sincan İbn-i Sina Lisesi mezunudur. 2015 yılında Dentics ailesine katılmıştır. Diş hekimi yardımcılığı görevini sürdürmektedir.",
+    "aysegul_title": "Diş hekimi yardımcısı"
+
+  },
+  "Team": {
+    "fuat": "Ankara doğumlu Dr. Dt. Fuat Kesim, ilk, orta ve lise eğitimini TED Ankara Koleji'nde tamamlamıştır. Hacettepe Üniversitesi Diş Hekimliği Fakültesi'nden mezun olduktan sonra, Ankara Üniversitesi Protetik Diş Tedavisi Anabilim Dalı'nda doktora eğitimine başlamıştır. \"Farklı porselen inley yapım tekniklerinin karşılaştırılması\" konulu tez çalışmasını tamamlayarak Bilim doktoru olmuştur (1996). Daha sonra Ankara Gülhane Askeri Tıp Akademisi Diş Hekimliği Bölümünde yedek subay uzman diş hekimi olarak hizmet ederek vatani görevini tamamlamıştır. 1995 yılından itibaren Dentics Ağız ve Diş Sağlığı Polikliniği'nde kurucu ortak ve protez uzmanı olarak çalışmaktadır. İngilizce ve Rusça bilmektedir. Türk Dişhekimleri Birliği, Ankara Dişhekimleri Odası üyesidir.",
+    "fuat_title": "Protez Uzmanı",
+    "serpil": "Ankara'da doğan Dr. Dt. Serpil Başoğlu Ankara Halide Edip Lisesi'nde lise eğitimini tamamlamıştır. Ankara Üniversitesi Diş Hekimliği Fakültesi'nden mezun olduktan sonra, Hacettepe Üniversitesi Diş Hekimliği Fakültesi Periodontoloji Anabilim Dalı'nda doktora eğitimine başlamıştır. \"Periodontitisli hastalarda kanama indekslerinin histolojik ve klinik karşılaştırılması ve dişeti iltihabı, cep derinliği ile olan ilişkilerinin incelenmesi\" isimli tez çalışması ile doktora eğitimini tamamlayarak, Bilim doktoru olmuştur. 1999 yılından itibaren Dentics Ağız ve Diş Sağlığı Polikliniği'nde dişeti hastalıkları uzmanı (Periodontist) olarak çalışmaya başlamıştır. Türk Periodontoloji Derneği, Türk Dişhekimleri Birliği ve Ankara Dişhekimleri Odası üyesidir.",
+    "serpil_title": "Periodontist (Diş ve Dişeti Hastalıkları)",
+    "doga": "Ankara'da doğan Dr. Dt. İlke Doğa Şeker, Ankara Özel Tevfik Fikret İlköğretim Okulu'nda ve Dr. Binnaz Ege - Dr. Rıdvan Ege Anadolu Lisesi'nde öğrenimini tamamlamıştır. Hacettepe Üniversitesi Diş Hekimliği Fakültesi'nden mezun olduktan sonra, Gazi Üniversitesi Diş Hekimliği Fakültesi Endodonti Anabilim Dalı'nda doktora eğitimine başlamıştır. Birçok kongre ve seminere katılım sağlayan İlke Doğa Şeker, \"R-Limonene nanoemülsiyonların kanal içi uygulamalarının kök dentini üzerindeki antibakteriyel etkilerinin in vitro olarak araştırılması\"isimli tez çalışması ile 100/2000 YÖK Doktora Bursiyeri olarak doktora eğitimini tamamlayıp, Bilim doktoru olmuştur. 2021 yılından itibaren Dentics Ağız ve Diş Sağlığı Polikliniği'nde kanal tedavisi uzmanı (Endodontist) olarak çalışmaktadır. İngilizce ve Fransızca bilmektedir. Türk Endodonti Derneği, Türk Dişhekimleri Birliği ve Ankara Dişhekimleri Odası üyesidir.",
+    "doga_title": "Endodontist (Kanal Tedavisi)",
+    "Serpil_Başoğlu": "Dr. Dt. Serpil Başoğlu",
+    "Doğa_Şeker": "Dr. Dt. İlke Doğa (Aymergen) Şeker",
+    "Fuat_Kesim": "Dr. Dt. Fuat Kesim",
+    "İlke Doğa (Aymergen) Şeker, DDS, PhD": "Dr. Dt. İlke Doğa (Aymergen) Şeker",
+    "Fuat Kesim, DDS, PhD": "Dr. Dt. Fuat Kesim",
+    "Serpil Başoğlu, DDS, PhD": "Dr. Dt. Serpil Başoğlu"
+  }
+
+}
