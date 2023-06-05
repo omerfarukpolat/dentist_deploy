@@ -76,33 +76,7 @@ function LanguageSwitcher() {
 
     return (
         <button onClick={handleLanguageChange} style={buttonStyle}>
-            {i18n.language === "en" ? (
-                <Avatar
-                    src={turkishFlag}
-                    sx={{
-                        width: "100%",
-                        height: "100%",
-                        backgroundColor: "white",
-                        color: "blue",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                    }}
-                />
-            ) : (
-                <Avatar
-                    src={ukFlag}
-                    sx={{
-                        width: "100%",
-                        height: "100%",
-                        backgroundColor: "white",
-                        color: "blue",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                    }}
-                />
-            )}
+            {i18n.language === "en" ? "Tr" : "En"}
         </button>
     );
 }

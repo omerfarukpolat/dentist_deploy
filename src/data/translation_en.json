@@ -39,14 +39,14 @@
         "title": "Services",
         "implant": "Dental Implant Treatment",
         "dis_eti": "Gum Disease Treatment",
-        "dis_beyaz": "Whitening",
+        "dis_beyaz": "Bleaching/ Whitening",
         "eklem_tedavi": "Joint Treatments",
         "kanal": "Root Canal Treatment",
-        "estetik_dol": "Fillings",
+        "estetik_dol": "Aesthetic Fillings",
         "yumusak_doku": "Soft Tissue Esthetics",
         "agiz_dis_cene": "Oral and Dental Surgery",
-        "sabit_protez": "Fixed Prosthetics",
-        "hareketli_protez": "Removable Prosthetics"
+        "sabit_protez": "Fixed Prosthodontic Dentures",
+        "hareketli_protez": "Removable Dentures"
     },
 
     "Testimonials": {
