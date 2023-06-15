@@ -76,7 +76,7 @@ function LanguageSwitcher() {
 
     return (
         <button onClick={handleLanguageChange} style={buttonStyle}>
-            {i18n.language === "en" ? "Tr" : "En"}
+            {i18n.language === "en" ? "TR" : "EN"}
         </button>
     );
 }

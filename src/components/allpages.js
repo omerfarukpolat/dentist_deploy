@@ -22,10 +22,10 @@ const AllPages = () => {
     <div lang={"tr"}>
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
+      <Features data={landingPageData.Features} />
       <Team data={landingPageData.Team} />
       <Testimonials data={landingPageData.Testimonials} />
       <Services data={landingPageData.Services} />
-      <Features data={landingPageData.Features} />
       <Contact data={landingPageData.Contact} />
       <a
         href="https://wa.me/905548764436"

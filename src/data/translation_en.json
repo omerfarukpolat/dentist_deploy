@@ -4,7 +4,7 @@
     "neden": "Why Dentics?",
     "ekip": "Our Team",
     "hizmetinizde": "We are at your service with our expert doctors.",
-    "biz_kimiz": "Who We Are?",
+    "biz_kimiz": "About Us",
     "ekibimiz": "Our Team",
     "tedaviler": "Treatments",
     "iletisim": "Contact",
@@ -45,8 +45,8 @@
         "estetik_dol": "Aesthetic Fillings",
         "yumusak_doku": "Soft Tissue Esthetics",
         "agiz_dis_cene": "Oral and Dental Surgery",
-        "sabit_protez": "Fixed Prosthodontic Dentures",
-        "hareketli_protez": "Removable Dentures"
+        "sabit_protez": "Removable Dentures",
+        "hareketli_protez": "Fixed Porcelain Crown and Bridges"
     },
 
     "Testimonials": {
