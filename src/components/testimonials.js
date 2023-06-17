@@ -27,7 +27,8 @@ export const Testimonials = (props) => {
                               title: d.title,
                             }}
                         >
-                          <img src={d.img} alt="..." />
+                        <img src={d.img} alt="..."/>
+
                         </Link>
                       </div>
                     </figure>
