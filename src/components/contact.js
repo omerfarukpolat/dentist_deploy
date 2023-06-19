@@ -152,7 +152,7 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy;
-            {new Date().getFullYear()} {props.data ? props.data.name : "loading"}
+            {new Date().getFullYear()} {props.data ? props.data.name : "loading"} OFP-YBKv.1.1.1
           </p>
         </div>
       </div>
