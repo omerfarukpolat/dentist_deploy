@@ -235,7 +235,6 @@ a:focus,
   width: 100%;
   display: table;
   background-image: url(../img/triangle-mosaic.webp);
-  background-position: center center;
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -261,7 +260,6 @@ a:focus,
   color: #fff;
   font-size: 82px;
   font-weight: 700;
-  text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -289,12 +287,9 @@ header .intro-text-sm {
 }
 /* Features Section */
 #features {
-  background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #FDF6EC;
-    width: 100%;
+  background: url("../img/triangle-mosaic.webp") repeat center center;
+  background-size: 150px 150px;
+  width: 100%;
 }
 
 #features .thumbnail {
@@ -366,8 +361,11 @@ header .intro-text-sm {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: radial-gradient(circle at top left, #F3E9DD 0%, #DAB88B 60%);
-  color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #FDF6EC;
+  width: 100%;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
@@ -458,7 +456,8 @@ header .intro-text-sm {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: radial-gradient(circle at top left, #F3E9DD 0%, #DAB88B 60%);
+  color: #fff;
 }
 /* Team Section */
 #team {
@@ -705,9 +704,7 @@ label {
 }
 
 .team-background {
-    background: url("../img/triangle-mosaic.webp") repeat center center;
-    background-size: 150px 150px;
-    padding: 30px 0;
+    background: #f6f6f6;
 }
 
 @media (max-width: 844px) {

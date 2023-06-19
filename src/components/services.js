@@ -9,7 +9,7 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>{props.data ? (t(props.data.hizmet)) : "loading..."}</h2>
+          <h2 style={{color: 'black'}}>{props.data ? (t(props.data.hizmet)) : "loading..."}</h2>
         </div>
         <div>
           {props.data

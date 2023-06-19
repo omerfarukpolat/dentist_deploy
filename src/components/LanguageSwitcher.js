@@ -53,6 +53,7 @@ import { useTranslation } from "react-i18next";
 import ukFlag from "../img/ukFlag.jpeg";
 import turkishFlag from "../img/turkishFlag.jpg";
 import { Avatar } from "@mui/material";
+import team from "../img/team/en_ustte_arkaplanda.JPG";
 
 function LanguageSwitcher() {
     const { t, i18n } = useTranslation();
@@ -76,7 +77,12 @@ function LanguageSwitcher() {
 
     return (
         <button onClick={handleLanguageChange} style={buttonStyle}>
-            {i18n.language === "en" ? "TR" : "EN"}
+
+            {i18n.language === "en" ? <img style={{width: 30, height: 30, borderRadius: "100%", transform: "scale(1)"}}
+                src={require("../img/turkey.png")}
+             alt={""}/> : <img style={{width: 30, height: 30, borderRadius: "100%"}}
+                src={require("../img/united-kingdom.png")}
+             alt={""}/>}
         </button>
     );
 }
