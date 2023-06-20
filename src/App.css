@@ -1,7 +1,7 @@
 @media screen and (max-width: 400px) {
   #features {
     padding: 20px;
-    width: 111%;
+    width: 100%;
   }
   #about,
   #services,
@@ -10,7 +10,7 @@
   #header,
   #contact,
   #footer {
-    width: 111%;
+    width: 100%;
   }
 
   #portfolio {
@@ -20,15 +20,15 @@
 
 .whatsapp_float {
   position: fixed;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   bottom: 40px;
   right: 40px;
   background-color: #25d366;
   color: #FFF;
   border-radius: 50px;
   text-align: center;
-  font-size: 30px;
+  font-size: 48px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
@@ -40,15 +40,15 @@
 /* for mobile */
 @media screen and (max-width: 767px) {
   .whatsapp-icon {
-    margin-top: 10px;
+    margin-top: 14px;
   }
 
   .whatsapp_float {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     bottom: 20px;
     right: 10px;
-    font-size: 22px;
+    font-size: 40px;
   }
 }
 

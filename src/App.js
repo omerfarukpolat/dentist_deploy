@@ -14,7 +14,6 @@ import { Testimonials } from "./components/testimonials";
 import { Contact } from "./components/contact";
 import { Navigation } from "./components/navigation";
 import AllPages from "./components/allpages";
-import { Temp } from "./components/temp";
 import "animate.css/animate.min.css";
 import { TeamDetails } from "./components/teamDetails";
 import LanguageSwitcher from "./components/LanguageSwitcher";
@@ -65,7 +64,6 @@ const App = () => {
               path="features"
               element={<Features data={landingPageData.Features} />}
             />
-            <Route path="temp" element={<Temp />} />
             <Route
               path="doctors"
               element={<TeamDetails data={landingPageData.Team} />}

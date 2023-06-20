@@ -1,9 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import ukFlag from "../img/ukFlag.jpeg";
-import turkishFlag from "../img/turkishFlag.jpg";
-import { Avatar } from "@mui/material";
-import team from "../img/team/en_ustte_arkaplanda.JPG";
 
 function LanguageSwitcher() {
     const { t, i18n } = useTranslation();

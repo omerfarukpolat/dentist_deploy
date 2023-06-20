@@ -9,6 +9,7 @@ export const Header = (props) => {
   return (
     <header id="header">
       <AnimationOnScroll
+        style={{overflow: "hidden !important" }}
         animateIn="animate__fadeIn"
         duration={1}
         animateOnce={true}

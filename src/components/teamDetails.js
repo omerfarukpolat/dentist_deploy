@@ -88,6 +88,8 @@ export const TeamDetails = () => {
               </div>
             </div>
             <AnimationOnScroll
+
+                style={{overflow: "hidden !important" }}
                 animateIn="animate__zoomIn"
                 delay={2}
                 duration={3}
@@ -111,6 +113,8 @@ export const TeamDetails = () => {
     return (
         <div id="teamDetail" className={"team-background col-sm-12 col-lg-12"}>
             <AnimationOnScroll
+
+                style={{overflow: "hidden !important" }}
                 animateIn="animate__zoomIn"
                 delay={2}
                 duration={3}

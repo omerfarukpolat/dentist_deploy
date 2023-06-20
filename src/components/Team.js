@@ -9,6 +9,7 @@ export const Team = (props) => {
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <AnimationOnScroll
+              style={{overflow: "hidden !important" }}
             animateIn="animate__slideInDown"
             duration={2}
             animateOnce={true}
@@ -16,6 +17,8 @@ export const Team = (props) => {
             <h2>{props.data ? (t(props.data.hekimlerimiz)) : "loading..."}</h2>
           </AnimationOnScroll>
           <AnimationOnScroll
+
+              style={{overflow: "hidden !important" }}
             animateIn="animate__fadeInDown"
             duration={2}
             animateOnce={true}

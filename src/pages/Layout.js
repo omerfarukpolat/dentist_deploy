@@ -6,7 +6,6 @@ import {useTranslation} from "react-i18next";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 
 
-
 const Layout = (props) => {
   const {width} = useWindowDimensions();
   const [landingPageData, setLandingPageData] = useState({});
@@ -40,7 +39,7 @@ const Layout = (props) => {
 
             <Link to={"/"} className="navbar-brand page-scroll">
               <img
-                style={{ marginTop: -20, width: width > 400 ? "14vw" : "55vw", height: "7vh" }}
+                style={{ marginTop: "-1.5rem", width: "15rem", height: "5rem" }}
                 src="../img/logo3.png"
                 onClick={checkLocation}
                 alt={""}

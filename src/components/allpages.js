@@ -1,5 +1,4 @@
 import { useContext, useEffect, useState } from "react";
-import { Navigation } from "./navigation";
 import { Header } from "./header";
 import { Features } from "./features";
 import { About } from "./about";
@@ -33,7 +32,7 @@ const AllPages = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fa fa-whatsapp whatsapp-icon" />
+        <i className="fa fa-whatsapp whatsapp-icon"/>
       </a>
     </div>
   );

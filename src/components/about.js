@@ -11,6 +11,7 @@ export const About = (props) => {
           <div style={{ marginBottom: 10 }} className="col-xs-12 col-md-6">
             {" "}
             <AnimationOnScroll
+              style={{overflow: "hidden !important" }}
               animateIn="animate__fadeInDown"
               duration={2}
               animateOnce={true}
@@ -25,6 +26,8 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <AnimationOnScroll
+
+                  style={{overflow: "hidden !important" }}
                 animateIn="animate__fadeInDown"
                 delay={1}
                 duration={2}
@@ -33,6 +36,7 @@ export const About = (props) => {
                 <h2>{props.data ? (t(props.data.hakkimizda)) : "loading..."}</h2>
               </AnimationOnScroll>
               <AnimationOnScroll
+                style={{overflow: "hidden !important" }}
                 animateIn="animate__fadeInRight"
                 delay={2}
                 duration={2}
@@ -41,6 +45,7 @@ export const About = (props) => {
                 <p>{props.data ? (t(props.data.paragraph)) : "loading..."}</p>
               </AnimationOnScroll>
               <AnimationOnScroll
+                style={{overflow: "hidden !important" }}
                 animateIn="animate__fadeInLeft"
                 delay={3}
                 duration={2}
@@ -49,6 +54,7 @@ export const About = (props) => {
                 <h3>{props.data ? (t(props.data.neden_dentics)) : "loading..."}</h3>
               </AnimationOnScroll>
               <AnimationOnScroll
+                style={{overflow: "hidden !important"}}
                 animateIn="animate__fadeInLeft"
                 delay={4}
                 duration={2}
