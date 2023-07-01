@@ -112,37 +112,20 @@ export const TeamDetails = () => {
    } else {
     return (
         <div id="teamDetail" className={"team-background col-sm-12 col-lg-12"}>
-            <AnimationOnScroll
-
-                style={{overflow: "hidden !important" }}
-                animateIn="animate__zoomIn"
-                delay={2}
-                duration={3}
-                animateOnce={true}
-            >
-              <div
-                  style={{ marginLeft: "5vw", maxWidth: "100vw", color: "black", marginTop: "10vh" }}
-                  className={"about-text"}
-              >
-                <h2>{t(data.name)}</h2>
-                <h1>{t(data.title)}</h1>
-                <div style={{ height: "3vh" }}></div>
-                <p>{t(data.description)}</p>
-              </div>
-            </AnimationOnScroll>
           <div
               style={{
                 display: "flex",
                 justifyContent: "center",
                 flexDirection: "row",
-                margin: 50,
-                marginTop: 0,
+                margin: 10,
+                marginTop: "10vh",
               }}
           >
             <div
                 style={{
                   width: "100vw",
                   height: "60vh",
+                  marginTop: "3vh"
                 }}
             >
               <div
@@ -169,6 +152,23 @@ export const TeamDetails = () => {
               </div>
             </div>
           </div>
+          <AnimationOnScroll
+              style={{overflow: "hidden !important" }}
+              animateIn="animate__zoomIn"
+              delay={2}
+              duration={3}
+              animateOnce={true}
+          >
+            <div
+                style={{ marginLeft: "5vw", maxWidth: "100vw", color: "black", marginTop: "3vh" }}
+                className={"about-text"}
+            >
+              <h2>{t(data.name)}</h2>
+              <h1>{t(data.title)}</h1>
+              <div style={{ height: "3vh" }}></div>
+              <p>{t(data.description)}</p>
+            </div>
+          </AnimationOnScroll>
           <Contact data={landingPageData.Contact} />
         </div>
     );
