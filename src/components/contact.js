@@ -129,8 +129,12 @@ export const Contact = (props) => {
                   <i className="fa fa-instagram"></i> Instagram
                 </span>{" "}
                 <a href={"https://instagram.com/dentics_"} className="white-link"> @dentics_</a>
-
-              </p>
+                <span>
+                  <p></p>
+                <i className="fa fa-envelope"></i> Email
+                <p className="white-link"> dentics.tr@gmail.com </p>
+                </span>
+                </p>
             </div>
 
           </div>

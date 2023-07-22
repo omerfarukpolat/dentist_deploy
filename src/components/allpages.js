@@ -27,7 +27,7 @@ const AllPages = () => {
       <Services data={landingPageData.Services} />
       <Contact data={landingPageData.Contact} />
       <a
-        href="https://wa.me/905548764436"
+        href="https://wa.me/905322868340"
         className="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
