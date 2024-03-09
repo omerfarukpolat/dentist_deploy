@@ -9,7 +9,7 @@ import useWindowDimensions from "../hooks/useWindowDimensions";
 export const TeamDetails = () => {
 
   const { t } = useTranslation();
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   const location = useLocation();
   const data = location.state;
 
@@ -29,6 +29,7 @@ export const TeamDetails = () => {
                   <div
                       className={"team-img"}
                       style={{
+                        marginTop: 20,
                         width: "100%",
                         display: "flex",
                         justifyContent: "center",
@@ -41,11 +42,11 @@ export const TeamDetails = () => {
                         style={{
                           width: "60%",
                           height: "100%",
-                          opacity: 0.95,
+                          opacity: 0.8,
                           boxShadow: "0 0 10px 0 rgba(0, 0, 0, 1)",
-                          background: "blur(20px)",
+                          background: "blur(50px)",
                         }}
-                    />
+                     alt={''}/>
                   </div>)
           }
 
@@ -54,8 +55,8 @@ export const TeamDetails = () => {
                 display: "flex",
                 justifyContent: "center",
                 flexDirection: "row",
-                margin: 150,
-                marginTop: 0,
+                margin: 0,
+                marginBottom: 50,
               }}
           >
             <div
@@ -84,11 +85,10 @@ export const TeamDetails = () => {
                       borderRadius: 30,
                       boxShadow: "0 0 10px 0 rgba(0, 0, 0, 1)",
                     }}
-                />
+                 alt={''}/>
               </div>
             </div>
             <AnimationOnScroll
-
                 style={{overflow: "hidden !important" }}
                 animateIn="animate__zoomIn"
                 delay={2}

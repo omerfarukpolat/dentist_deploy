@@ -1,19 +1,10 @@
 import { Outlet, Link } from "react-router-dom";
-import { useEffect, useState } from "react";
-import JsonData from "../data/data_2.json";
-import useWindowDimensions from "../hooks/useWindowDimensions";
 import {useTranslation} from "react-i18next";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 
 
 const Layout = (props) => {
-  const {width} = useWindowDimensions();
-  const [landingPageData, setLandingPageData] = useState({});
   const { t } = useTranslation();
-
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
 
   const checkLocation = () => {
     window.scrollTo(0, 0);

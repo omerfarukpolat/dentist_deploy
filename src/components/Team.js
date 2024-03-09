@@ -9,7 +9,7 @@ export const Team = (props) => {
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <AnimationOnScroll
-              style={{overflow: "hidden !important" }}
+            style={{overflow: "hidden !important" }}
             animateIn="animate__slideInDown"
             duration={2}
             animateOnce={true}
@@ -17,15 +17,13 @@ export const Team = (props) => {
             <h2>{props.data ? (t(props.data.hekimlerimiz)) : "loading..."}</h2>
           </AnimationOnScroll>
           <AnimationOnScroll
-
-              style={{overflow: "hidden !important" }}
+            style={{overflow: "hidden !important" }}
             animateIn="animate__fadeInDown"
             duration={2}
             animateOnce={true}
           >
             <p>
               {props.data ? (t(props.data.hizmetinizde)) : "loading..."}
-
             </p>
           </AnimationOnScroll>
         </div>
@@ -33,8 +31,7 @@ export const Team = (props) => {
           {props.data
             ? props.data.doctors.map((d, i) => (
                 <div key={`${t(d.name)}-${i}`} className="col-md-3 col-sm-6 team">
-                  <figure>
-                    <div className="thumbnail hover01 img-responsive" style={{marginBottom: 10}}>
+                    <div className="thumbnail hover01 img-responsive" style={{marginBottom: 20}}>
                       {" "}
                       <Link
                         to="/doctors"
@@ -48,7 +45,6 @@ export const Team = (props) => {
                         <img src={d.img} alt="..." />
                       </Link>
                     </div>
-                  </figure>
                   <h4 style={{ marginBottom: 20 }}>{t(d.name)}</h4>
                 </div>
               ))
