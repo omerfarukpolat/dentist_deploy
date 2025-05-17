@@ -138,12 +138,6 @@
       "description": "Testimonials.gulseren"
     },
     {
-      "img": "img/team/aysegul_akgul.JPG",
-      "name": "Ayşegül Akgül",
-      "title": "Testimonials.aysegul_title",
-      "description": "Testimonials.aysegul"
-    },
-    {
       "img": "img/team/cemile_gulengoz_erdogan.JPG",
       "name": "Cemile Gülengöz Erdoğan",
       "title": "Testimonials.cemile_title",
@@ -166,12 +160,6 @@
       "name": "Team.Serpil_Başoğlu",
       "title": "Team.serpil_title",
       "description": "Team.serpil"
-    },
-    {
-      "img": "img/team/ilke_doga_seker.JPG",
-      "name": "Team.Doğa_Şeker",
-      "title": "Team.doga_title",
-      "description": "Team.doga"
     }
   ]
   },
