@@ -238,6 +238,7 @@ a:focus,
   background-repeat: repeat;
   background-attachment: fixed;
 }
+/*
 .intro {
   display: table;
   width: 100%;
@@ -251,7 +252,20 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
-
+*/
+.intro {
+  display: table;
+  width: 100%;
+  padding: 0;
+  background-image: url(../img/team/ekibimiz_biz_kimiz.JPG);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center -25vh;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
