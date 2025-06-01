@@ -19,7 +19,14 @@ export const Header = (props) => {
             <div className="container">
               <div className="row">
                 <div className={"col-md-8 col-md-offset-2 " + (width > 400 ? "intro-text" : "intro-text-sm")}>
-                  <h1 style={{ fontFamily: "MontserratBold" }}>
+                  {/* <h1 style={{ fontFamily: "MontserratBold" }}> */}
+                  <h1  
+                      style={{
+                        fontFamily: "MontserratBold",
+                        fontSize: width > 400 ? "5vw" : "4.5vw", // smaller than 7vw / 6vw
+                        marginTop: "15vh",
+                      }}
+                  >
                     {props.data ? t(props.data.title) : "Loading"}
                     <span></span>
                   </h1>

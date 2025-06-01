@@ -16,11 +16,19 @@ export const About = (props) => {
               duration={2}
               animateOnce={true}
             >
-              <img
-                src="img/team/ekibimiz_biz_kimiz.JPG"
-                className="img-responsive"
-                alt=""
-              />{" "}
+              <div style={{ 
+                height: "80vh",        // Adjust height to how much you want visible
+                overflow: "hidden"     // Hide the overflowing part
+              }}>
+                <img
+                  src="img/team/ekibimiz_biz_kimiz.JPG"
+                  className="img-responsive"
+                  alt=""
+                  style={{ 
+                    marginTop: "-5vh" // Move the image up to crop the top part
+                  }}
+                />
+              </div>
             </AnimationOnScroll>
           </div>
           <div className="col-xs-12 col-md-6">
